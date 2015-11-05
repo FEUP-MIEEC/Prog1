@@ -2,5 +2,5 @@ language: c
 compiler: clang
 script: 
  - 'clang "Aula_Pratica_04/Problema_4.c"'
- - '"8" > a'
+ - 'echo "8" > a'
  - './a.out < a'
