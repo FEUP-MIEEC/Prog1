@@ -1,5 +1,5 @@
 language: c
 compiler: clang
 script: 
- - clang "Aula Prática '#4/Problema_4.c"
- - "Aula Prática '#4/a.out"
+ - clang "Aula_Pratica_04/Problema_4.c"
+ - "Aula_Pratica_04/a.out"
