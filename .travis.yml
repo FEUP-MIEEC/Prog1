@@ -1,5 +1,4 @@
 language: c
 compiler: clang
 script: 
- - find .
- 
+ - clang "Aula Prática #4/Problema_4.c"
