@@ -7,8 +7,9 @@
 
 int main(){
 	int l,j,i;
-	printf("Insira o número de linhas: ");
-	scanf("%d", &l);
+	//printf("Insira o número de linhas: ");
+	//scanf("%d", &l);
+	l=30;
 	for(i=1;i!=l;i++){
 		j=1;
 		while(j<(l+i-1)) {
