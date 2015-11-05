@@ -2,4 +2,4 @@ language: c
 compiler: clang
 script: 
  - clang "Aula_Pratica_04/Problema_4.c"
- - "Aula_Pratica_04/a.out"
+ - "./a.out"
