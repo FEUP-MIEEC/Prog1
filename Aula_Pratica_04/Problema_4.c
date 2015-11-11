@@ -8,6 +8,7 @@
 int main(){
 	int l,j,i;
 	printf("Insira o número de linhas: ");
+Printf("/n");
 	scanf("%d", &l);
 	for(i=1;i!=l;i++){
 		j=1;
