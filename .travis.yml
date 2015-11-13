@@ -1,6 +1,7 @@
 language: c
 compiler: clang
 script: 
- - 'clang -lm "Aula_Pratica_02/Problema_1.c"'
- - 'echo "20" > a'
- - './a.out < a'
+ - 'php build/mklst.php'
+ # - 'clang -lm "Aula_Pratica_02/Problema_1.c"'
+ # - 'echo "20" > a'
+ # - './a.out < a'
