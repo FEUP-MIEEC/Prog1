@@ -33,15 +33,7 @@ int main()
 
 	if (pow(b,2)-4*a*c < 0){
 		printf("Não existe nenhuma solução real\n");
-		i = pow(b,2)-4*a*c;
-		i = ((i/4) - (int)i) * 4;
-		i2 = i;
-
-		switch(i2){
-			case 1:
-			printf("Tem raizes complexas: %lf+(%lfi)", (-b)/(2*a), sqrt(-(pow(b,2)-4*a*c))/2*a);
-		}
-
+		printf("Tem raizes complexas: %lf+(%lfi)", (-b)/(2*a), sqrt(-(pow(b,2)-4*a*c))/2*a);
 	}
 	else if (x1 == x2){
 		printf("A solução é uma raíz dupla:\n%lf\n", x1);
