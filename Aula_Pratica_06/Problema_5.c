@@ -6,14 +6,14 @@ void draw(int l, int c, char ch) {
 
     // Desenhar a primeira linha
     int i, j;
-    for (i=0; i<=c;i++){
+    for (i=0; i<c;i++){
       printf("%c", ch);
     }
     printf("\n"); // Mudar de linha
     // Desenhar as linhas intermédias
 
-    for(i=0;i<=l-2;i++){
-      for(j=0;j<=c;j++){
+    for(i=0;i<l-2;i++){
+      for(j=0;j<c;j++){
       /*Se estivermos na primeira (j=0)
        *ou na última (j=c) colunas,
        *desenhar o carater de margem.
@@ -30,7 +30,7 @@ void draw(int l, int c, char ch) {
     }
 
     // Desenha a última linha
-    for (i=0; i<=c;i++){
+    for (i=0; i<c;i++){
       printf("%c", ch);
     }
     printf("\n"); // Mudar de linha
@@ -39,15 +39,15 @@ void draw(int l, int c, char ch) {
 int main()
 {
   int l, c;
-  char ca;
+  char ch;
 	printf("Introduza um carater: ");
-	scanf(" %c" , &ca);
+	scanf(" %c" , &ch);
 	printf("Introduza o número de linhas: ");
 	scanf("%d" , &l);
 	printf("Introduza o número de colunas: ");
 	scanf("%d" , &c);
 
-	draw(l, c, ca);
+	draw(l, c, ch);
 
   return 0;
 }
