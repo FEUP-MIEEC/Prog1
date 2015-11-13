@@ -4,7 +4,8 @@ echo "Begin Building:"
 
 for file in build/*
 do
-	if [[ ${file##*.} -eq "sh" ]]; then
+	echo ${file##*.}
+	if [ ${file##*.} == 'sh' ]; then
 		chmod +x $file
 		$file
 	fi
