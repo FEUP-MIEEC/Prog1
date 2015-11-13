@@ -12,7 +12,7 @@ int main()
 	//iniciação de variáveis
 
 	double a, b, c, i;
-
+	int i2;
 	//recolha de dados
 
 	printf("Qual é o valor de a?\n");
@@ -35,8 +35,9 @@ int main()
 		printf("Não existe nenhuma solução real\n");
 		i = pow(b,2)-4*a*c;
 		i = ((i/4) - (int)i) * 4;
+		i2
 
-		switch(i){
+		switch(i2){
 			case 1:
 			printf("Tem raizes complexas: %lf+(%lfi)", (-b)/(2*a), sqrt(-(pow(b,2)-4*a*c))/2*a);
 		}
