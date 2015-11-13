@@ -2,6 +2,8 @@ language: c
 sudo: true
 compiler: clang
 script:
+ - sudo apt-get update
+ - sudo apt-get dist-upgrade
  - sudo apt-get install php5
  - chmod +x build.sh
  - ./build.sh
