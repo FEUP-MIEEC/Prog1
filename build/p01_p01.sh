@@ -4,11 +4,11 @@
 clang "Aula_Pratica_01/exp.c"
 OUT=$?
 echo $OUT;
-exit 0
-if ! [ OUT == 0 ]; then
-	EX[0101]=1;	
+
+if [ OUT == 0 ]; then
+	EX[0101]=0;	
 else
-	EX[0101]=0;
+	EX[0101]=1;
 fi
 
 echo ${EX[0101]}
