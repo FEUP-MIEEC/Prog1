@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 echo "Trying PHP out"
-php "1.php"
+php "build/1.php"
