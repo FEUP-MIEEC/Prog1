@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 
 #php "build/1.php"
-out=clang "Aula_Pratica_01/exp.c"
-echo $out;
+clang "Aula_Pratica_01/exp.c"
+OUT=$?
+echo $OUT;
 exit 0
-if [ out == 1 ]; then
+if ! [ OUT == 0 ]; then
 	EX[0101]=1;	
 else
 	EX[0101]=0;
