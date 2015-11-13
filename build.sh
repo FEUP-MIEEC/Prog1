@@ -4,5 +4,6 @@ echo "Begin Building:"
 
 for file in build/*
 do
-  $file
+	chmod +x $file
+	$file
 done
