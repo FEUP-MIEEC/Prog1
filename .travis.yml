@@ -1,12 +1,12 @@
 language: c
 sudo: false
 compiler: clang
-addons:
-  apt:
-    packages:
-    - php5
-    - php5-cli
-    - php-pear
+# addons:
+  # apt:
+    # packages:
+    # - php5
+    # - php5-cli
+    # - php-pear
 script:
  - chmod +x build.sh
  - ./build.sh
