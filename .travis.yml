@@ -1,3 +1,5 @@
 language: c
 compiler: clang
-script: ./build.sh
+script:
+ - chmod +x build.sh
+ - ./build.sh
