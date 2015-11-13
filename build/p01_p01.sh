@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-echo "1 here!"
+echo "Trying PHP out"
+php "1.php"
