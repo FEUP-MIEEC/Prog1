@@ -2,7 +2,7 @@
 
 echo "Begin Building:"
 
-for file in /build/*
+for file in build/*
 do
   $file
 done
