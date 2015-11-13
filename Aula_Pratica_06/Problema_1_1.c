@@ -9,7 +9,6 @@ int main(){
 	printf("Quantos lançamentos? ");
 	scanf("%d", &n);
 	for(i=1; i<=n; i++){
-		//srand(time(NULL));
 		rt=dado();
 		if(rt==6){
 			count++;
