@@ -35,7 +35,7 @@ int main()
 		printf("Não existe nenhuma solução real\n");
 		i = pow(b,2)-4*a*c;
 		i = ((i/4) - (int)i) * 4;
-		i2
+		i2 = i;
 
 		switch(i2){
 			case 1:
