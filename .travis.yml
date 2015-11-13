@@ -1,6 +1,6 @@
-language: 
- - c
- - php
+language: php
+php:
+  - 5.4
 compiler: clang
 script: 
  - 'php build/mklst.php'
