@@ -4,6 +4,9 @@ echo "Begin Building:"
 
 for file in build/*
 do
-	chmod +x $file
-	$file
+	if [[${file##*.}=="sh" ]]; then
+		chmod +x $file
+		$file
+	fi
+		
 done
