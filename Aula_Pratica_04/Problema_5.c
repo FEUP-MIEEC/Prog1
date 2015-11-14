@@ -1,6 +1,6 @@
 /*
- *  Created on: 28/10/2015
- *      Author: Gonçalo Pereira
+ *  Created on: 14/11/2015
+ *      Author: Fábio Gaspar
  */
 
 #include <stdio.h>
