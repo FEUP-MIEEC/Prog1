@@ -1,4 +1,4 @@
-// Paula GraÃ§a
+// Paula Graça
 
 #include <stdio.h>
 
