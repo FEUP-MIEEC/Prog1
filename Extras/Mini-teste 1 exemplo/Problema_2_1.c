@@ -5,22 +5,22 @@
 int main () 
 {
 	int x, y, xant, yant;
-	if(scanf("%d %d", &x, &y) != 2);
+	if(scanf("%d %d", &xant, &yant) != 2)
 		return 1;
 
 	while(scanf("%d %d", &x, &y) == 2)
 	{
-		char moviemento;
+		char movimento;
 		if(y - yant == 1)
-			moviemento = 'C';
+			movimento = 'C';
 		else if(y - yant == -1)
-			moviemento = 'B';
+			movimento = 'B';
 		else if(x - xant == 1)
-			moviemento = 'D';
+			movimento = 'D';
 		else if(x - xant == -1)
-			moviemento = 'E';
+			movimento = 'E';
 
-		printf("%c\n", movimento);
+		printf("%c", movimento);
 		xant = x;
 		yant = y;
 	}

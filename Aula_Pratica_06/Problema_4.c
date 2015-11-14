@@ -1,4 +1,7 @@
-// Gonçalo Mendes & Daniel Silva
+/*
+ *  Created on: 13/11/2015
+ *      Author: Daniel Silva e Gonçalo Mendes
+ */
 
 #include <stdio.h>
 
