@@ -10,11 +10,16 @@ int main () {
 	for(i=0; i<20; i++)
 	{
 		scanf("%d %d", &F, &MT);
-		nota = 0.4*F + 0.6*MT;
+		nota = (0.4*F + 0.6*MT)*2/10;
+		printf("%f\n", nota);
 		if(F < 40)
+		{
 			semfrequencia +=1;
-		else if(nota >=9.5)
+		}
+		else if(nota >9.5)
+		{
 			aprovados+=1;
+		}
 	}
 	printf("Estudantes sem frequência: %d\n", semfrequencia);
 	printf("Aprovações: %0.1f %% \n", aprovados/20.0*100);
