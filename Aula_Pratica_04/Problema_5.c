@@ -1,29 +1,31 @@
 /*
- *  Created on: 28/10/2015
- *      Author: Gonçalo Pereira
+ *  Created on: 14/11/2015
+ *      Author: Fábio Gaspar
  */
 
 #include <stdio.h>
 
-int fator(float n){
-	float p;
-	for(p = 2; n>1; p++){
-		
-		if ((int)(n/p) == n/p){
-			n= n/p;
-			printf("%d\n", (int)p);
-			p -=1;
-		}
-	}
-	return 0;
-}
+int main()
+{
+	int num_i, num, p_fact=1, d=2;
+	/*
+	num_i : número incial
+	num : vai assumir 'num_i' e vai ser dividido por números primos para obter respetivos factores
+	p_fact : variável usada para guardar o produto de fatores e usado no cliclo While como condição
+	d : variável que vai tomar valores [2, num_i] e o fator atualmente a ser testado
+	*/
+	printf("Insira um numero: ");
+	scanf("%d", &num_i);
 
-int main(){
-	
-	printf("Insira um número de três digitos\n");
-	float numero, primo;
-	scanf("%f", &numero);
-	fator(numero);
-	
-	return 0;
+	num = num_i;
+	while(p_fact!=num_i)
+	{
+		if (num%d==0)
+		{
+			num/=d;
+			p_fact*=d;
+			printf("%d ", d);
+		}
+		else d++;
+	}
 }

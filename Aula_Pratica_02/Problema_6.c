@@ -1,30 +1,15 @@
 /*
  *  Created on: 28/10/2015
- *      Author: Gonçalo Pereira
+ *      Author: Gonçalo Pereira, Fábio Gaspar
  */
-// ESTE PROGRAMA FUNCIONA COMO ESPERADO, MAS NÃO ESTÁ IMPLEMENTADO COMO PEDIDO. POR FAVOR COMUNIQUE SE SOUBER A RESPOSTA
+
 #include <stdio.h>
 
 int main(){
-	double numero;
-	int inteiro;
-
+	float n;
+	int n2;
 	printf("Insere um número ");
-	scanf("%lf", &numero);
-	
-	inteiro = numero;
-
-	while((inteiro+1)%2 == 0){
-		inteiro++;
-	}
-
-	printf("%d ", inteiro);
-	inteiro = numero;
-
-
-	while((inteiro-1)%2 == 0){
-		inteiro--;
-	}
-	printf("%d \n", inteiro);
-return 0;
+	scanf("%f", &n);
+	n2 = n+.5;
+	printf("%d %d\n", n2+2 - n2%2, n2-2 + n2%2);
 }
