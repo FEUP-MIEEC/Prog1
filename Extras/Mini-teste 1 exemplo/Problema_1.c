@@ -11,7 +11,6 @@ int main () {
 	{
 		scanf("%d %d", &F, &MT);
 		nota = (0.4*F + 0.6*MT)*2/10;
-		printf("%f\n", nota);
 		if(F < 40)
 		{
 			semfrequencia +=1;
