@@ -18,12 +18,12 @@ char movimento(int x0, int y0, int x1, int y1)
 int main () 
 {
 	int x, y, xant, yant;
-	if(scanf("%d %d", &x, &y) != 2)
+	if(scanf("%d %d", &xant, &yant) != 2)
 		return 1;
 
 	while(scanf("%d %d", &x, &y) == 2)
 	{
-		printf("%c\n", movimento(xant, yant, x, y));
+		printf("%c", movimento(xant, yant, x, y));
 		xant = x;
 		yant = y;
 	}

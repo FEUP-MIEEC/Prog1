@@ -5,7 +5,7 @@
 int main () 
 {
 	int x, y, xant, yant;
-	if(scanf("%d %d", &x, &y) != 2)
+	if(scanf("%d %d", &xant, &yant) != 2)
 		return 1;
 
 	while(scanf("%d %d", &x, &y) == 2)
@@ -20,7 +20,7 @@ int main ()
 		else if(x - xant == -1)
 			movimento = 'E';
 
-		printf("%c\n", movimento);
+		printf("%c", movimento);
 		xant = x;
 		yant = y;
 	}
