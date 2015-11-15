@@ -4,7 +4,7 @@
  */
 
 #include <stdio.h>
-int main2(){
+int main(){
 
     char sentence;
     int a = 0, e = 0, i = 0, o = 0, u = 0;
