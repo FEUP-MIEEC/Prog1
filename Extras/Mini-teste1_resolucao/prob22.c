@@ -6,7 +6,7 @@
 #include <math.h>
 
 void ConverteBinario(int num){
-	printf("%d	", );
+	printf("%d	", num);
 	for(i=8, i!=-1, i--){
 		if(pow(2, i)>num){
 			num-=pow(2, i);
