@@ -8,7 +8,7 @@ int main(){
 		scanf("%d", &v);
 		if (v>vmax){
 			cexc++;
-			continue;
+			continue; // este comando avança para a próxima iteração do ciclo
 		}
 		if(v<vmin){
 			cdef++;
@@ -18,6 +18,7 @@ int main(){
 		vtotal+=v;
 	}
 	float vmedio=(float)vtotal/k;
+
 	printf("Valor médio: %.2f (desvio absoluto de %.2f)\n", vmedio, fabs(vmedio-videal)/videal*100);
 	printf("Garrafas com volume em excesso: %d", cexc);
 	printf("Garrafas com volume em defeito: %d", cdef);
