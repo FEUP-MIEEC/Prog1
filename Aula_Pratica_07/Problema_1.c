@@ -6,12 +6,10 @@
 #include <stdio.h>
 #include <math.h>
 
-double fatorial(int n){
-	int fact = 1;
-	while(n>1){
-		fact *= (2*n)-1;
-		n--;
-	}
+double facto (int n){
+	double fact;
+	for (int c = 1; c <= n; c++)
+    fact = fact * c;
 	return fact;
 }
 
@@ -24,9 +22,10 @@ int main(){
 	printf("Qual o valor da tolerância? ");
 	scanf("%lf", &tol);
 
+	printf("%d\n", facto(5));
+
 	for(int n=1; dif > tol; n++){
-		serie = pow(-1, n+1) * (pow(x, 2*n-1)/(fatorial(n)));
-		printf("%lf\n", serie);
+		serie = pow(-1, n+1) * (pow(x, 2*n-1)/(facto((2*n)-1)));
 		sen += serie;
 		dif = fabs(serie0 + serie);
 		serie0 = serie;
