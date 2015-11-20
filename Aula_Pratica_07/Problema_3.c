@@ -1,23 +1,36 @@
 /*
- *  Created on: 15/11/2015
- *      Author: Gonçalo Pereira
+ *  Created on: 20/11/2015
+ *      Author: Daniel Silva
  */
 
 #include <stdio.h>
 #include <math.h>
+#define TOLERANCIA 0.005
+
+double q(int n){
+        double r=0, p=0, i=1;
+        while(p!=1/pow(n,2)){
+                p=1/pow(i,2);
+                r+=p;
+                i++;
+        }
+        return r;
+}
+double a(int n){
+        double r=0, p=0, i=1;
+        while(p!=pow(-1,n+1)*1/pow(2,n)){
+                p=pow(-1,i+1)*1/pow(2,i);
+                r+=p;
+                i++;
+        }
+        return r;
+}
 
 int main(){
+        int n;
+        printf("Indique o valor de n: ");
+        scanf("%d", &n);
 
-	int n;
-	double q=0 , a;
-
-	printf("Indique o valor de n: \n");
-	scanf("%d", &n);
-
-	for (int i = 1; i < n+1; i++)
-	{
-		q += 1/pow(n,i);
-	}
-
-	printf("Q(%d)=%lf e A(%d)=%lf\n", n, q, n, a);
+        printf("Q(%d)=%.2lf e A(%d)=%.4lf\n", n, q(n), n, a(n));
+        return 0;
 }
