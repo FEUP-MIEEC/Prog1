@@ -5,7 +5,6 @@
 
 #include <stdio.h>
 #include <math.h>
-#define TOLERANCIA 0.005
 
 double q(int n){
         double r=0, p=0, i=1;
