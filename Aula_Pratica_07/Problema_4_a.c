@@ -1,3 +1,8 @@
+/*
+ *  Created on: 20/11/2015
+ *  Author: Fábio Gaspar
+ *  Alternativa
+ */
 #include <stdio.h>
 #include <stdlib.h>
 
