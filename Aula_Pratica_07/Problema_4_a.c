@@ -1,7 +1,7 @@
 /*
  *  Created on: 20/11/2015
  *  Author: Fábio Gaspar
- *  Alternativa
+ *  Alternativa (ainda não acabada)
  */
 #include <stdio.h>
 #include <stdlib.h>
