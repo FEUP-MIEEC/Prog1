@@ -1,35 +1,35 @@
 /*
  *  Created on: 16/11/2015
- *      Author: Gonçalo Pereira
+ *      Author: Gonçalo Pereira & Daniel Silva
  */
 
 #include <stdio.h>
 #include <math.h>
 
-double facto (int n){
-	double fact;
-	for (int c = 1; c <= n; c++)
-    fact = fact * c;
+double fatorial(int n){
+	double fact=1;
+	while(n>1){
+		fact *= n;
+		n--;
+	}
 	return fact;
 }
 
+
 int main(){
-
-	double x, tol, dif = 99999999999, serie0=0, sen=0, serie=0;
-
+	double x, tol, sen, serieant=0, serie, dif=5000;
 	printf("Qual o valor de x? ");
 	scanf("%lf", &x);
-	printf("Qual o valor da tolerância? ");
+	printf("Qual o valor da tolerancia? ");
 	scanf("%lf", &tol);
-
-	printf("%d\n", facto(5));
-
-	for(int n=1; dif > tol; n++){
-		serie = pow(-1, n+1) * (pow(x, 2*n-1)/(facto((2*n)-1)));
-		sen += serie;
-		dif = fabs(serie0 + serie);
-		serie0 = serie;
+	int n=0;
+	while(dif>=tol){
+		n++;
+		serie=pow(-1,n+1)*pow(x, 2*n-1)/fatorial(2*n-1);
+		sen +=serie;
+		dif=fabs(serie+serieant);
+		serieant=serie;
 	}
-	printf("O seno de %lf é %.6lf\n", x, sen);
+	printf("O seno de %f é %f\n", x, sen);
 	return 0;
 }
