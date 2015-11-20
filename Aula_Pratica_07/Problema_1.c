@@ -4,6 +4,7 @@
  */
 
 #include <stdio.h>
+#include <math.h>
 
 int fatorial(int n){
 	int fact;
@@ -16,14 +17,14 @@ int fatorial(int n){
 
 int main(){
 
-	float x, tol, dif, sen, serie, serie0;
+	double x, tol, dif, sen, serie, serie0;
 
 	printf("Qual o valor de x? ");
-	scanf("%f", &x);
+	scanf("%lf", &x);
 	printf("Qual o valor da tolerância? ");
-	scanf("%f", &tol);
+	scanf("%lf", &tol);
 
-	for(n=1; fabs(dif) < tol; n++){
+	for(int n=1; fabs(dif) < tol; n++){
 		serie = pow(-1, n) * pow(x, 2*n+1)/(fatorial(n));
 		sen += serie;
 		dif = serie - serie0;
