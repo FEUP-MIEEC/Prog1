@@ -33,3 +33,34 @@ int main(){
         printf("Q(%d)=%.2lf e A(%d)=%.4lf\n", n, q(n), n, a(n));
         return 0;
 }
+
+/*
+ *  Created on: 20/11/2015
+ *  Author: Fábio Gaspar
+ *  Alternativa
+ */
+
+// #include <stdio.h>
+// #include <math.h>
+
+// int main()
+// {
+//         int n;
+//         float q=0, a=0;
+
+//         printf("Indique o valor de n:");
+//         scanf("%d", &n);
+
+        
+//         for (int i = 1; i <= n; ++i)
+//         {
+
+//                         q+=(float)1/(i*i); //Sendo i uma variável tipo 'int', é necessário usar o 'type cast', caso contrário a operação é feita em inteiro
+//                         a+=pow(-1, i+1)/(pow(2,i));
+//         }
+        
+
+//         printf("Q(%d)=%0.2f\n",n,q);
+//         printf("A(%d)=%0.4f\n",n,a);
+// }
+
