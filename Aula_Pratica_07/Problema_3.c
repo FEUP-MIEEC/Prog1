@@ -9,12 +9,12 @@
 int main(){
 
 	int n;
-	double q, a;
+	double q=0 , a;
 
 	printf("Indique o valor de n: \n");
 	scanf("%d", &n);
 
-	for (int i = 1; i > n; ++i)
+	for (int i = 1; i < n+1; ++i)
 	{
 		q += 1/pow(n,i);
 	}
