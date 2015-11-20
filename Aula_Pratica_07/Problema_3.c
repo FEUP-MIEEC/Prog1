@@ -14,7 +14,7 @@ int main(){
 	printf("Indique o valor de n: \n");
 	scanf("%d", &n);
 
-	for (int i = 1; i < n+1; ++i)
+	for (int i = 1; i < n+1; i++)
 	{
 		q += 1/pow(n,i);
 	}
