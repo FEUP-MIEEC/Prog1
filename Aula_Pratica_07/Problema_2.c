@@ -35,15 +35,15 @@ int num1(int a, int b) {
 }
 int main () {
 	int a, b;
-	printf ("introduza um numero:\n");
+	printf ("Introduza um número: ");
 	scanf ("%d", &a);
-	printf ("introduza um segundo numero:\n");
+	printf ("Introduza um segundo número: ");
 	scanf ("%d", &b);
 
 	if ( num1(a,b) == 1 )
-		printf("o numero %d esta contido no numero %d\n", b, a);
+		printf("o número %d está contido no número %d.\n", b, a);
 	else 
-		printf ("o numero %d nao esta contido no numero %d\n", b, a);
+		printf ("o número %d não está contido no número %d.\n", b, a);
 
 }
 		
