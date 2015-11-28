@@ -15,7 +15,7 @@ int n_threads = 0;
 void* maquinaEstado(void* args)
 {
 	int state = 1;
-	
+
 	while(1)
 	{
 		/*---------------------Coloque aqui o seu código-----------------------*/
@@ -136,8 +136,9 @@ void* maquinaEstado(void* args)
 			case 16:
 			if(!lerSensorPusher(PUSHER1, PSENSOR)){
 				empurraPeca(PUSHER1, NEG);
-				state = 17;
-			}
+			}else{
+                state = 17;
+            }
 			break;
 			case 17:
 			if(lerSensorPusher(PUSHER1, PSENSOR)){
