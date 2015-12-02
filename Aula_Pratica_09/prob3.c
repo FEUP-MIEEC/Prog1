@@ -1,3 +1,7 @@
+/*
+ *  Created on: 02/12/2015
+ *      Author: Fábio Gaspar
+ */
 #include <stdio.h>
 
 float somatorio_vetor(float v[], int n)
