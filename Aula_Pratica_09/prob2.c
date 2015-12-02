@@ -27,6 +27,8 @@ int contaRepeticao(int v[], int tamanhoVetor, int numero)
 			{
 				seq_maior = seq_atual;
 			}
+
+			i = j + 1; //[otimização] Todos os números até o indice 'j' foram verificados, logo 'i' deve passar a ser 'j+1'
 		}
 	}
 
