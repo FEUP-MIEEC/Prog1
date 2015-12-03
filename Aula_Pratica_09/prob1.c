@@ -6,7 +6,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*Função só para brincar com vetores e apontadores*/
 void histograma(int *prt) 
 /*Nota: um vetor é ele próprio um apontador, pelo que esta notação é correta.
 ****outros exemplos****

@@ -38,7 +38,7 @@ int contaRepeticao(int v[], int tamanhoVetor, int numero)
 int main()
 {
 	int size;
-	/*Porque isto é C e não permite vetores dinâmicos...... |facepalm|*/
+	
 	printf("Quantos numeros vai introduzir?: ");
 	scanf("%d", &size);
 	/*fim da estupidez*/
