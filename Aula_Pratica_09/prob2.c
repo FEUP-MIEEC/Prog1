@@ -43,9 +43,9 @@ int main()
 	scanf("%d", &size);
 	/*fim da estupidez*/
 
-	int v[100], j=0, count=1, num;
+	int v[size], j=0, count=1, num;
 
-	//TODO: não é possível definir tamanho de vetores com variáveis... fuck! < insert black magic >
+	//TODO: não é possível definir tamanho de vetores com variáveis... *update* apenas em C99!
 
 	while(1)
 	{
