@@ -8,7 +8,7 @@ a)
 int main()
 {
 	int x;
-	float v[50], v_round[50], sum;
+	float v[50], sum;
 
 	printf("Número de notas: ");
 	scanf("%d", &x);
