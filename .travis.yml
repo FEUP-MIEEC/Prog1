@@ -1,6 +1,6 @@
 language: c
 compiler: clang
 script: 
- - 'clang -lm "Aula_Pratica_02/Problema_1.c"'
- - 'echo "20" > a'
+ - 'clang -lm "Aula_Pratica_09/prob3.c"'
+ - 'echo "18 5 5.2 4.1 3.3 2.7 1.4" > a'
  - './a.out < a'
