@@ -6,15 +6,18 @@
 
 void imprimir_vetor(float v[])
 {
-	printf("Vetor: {%.1f", v[0]);
-	for (int i = 1; i < 9; ++i)
+	printf("Vetor: {");
+	for (int i = 1; i < 10; ++i)
 	{
-		printf(" %.1f", v[i]);
+		printf("%.1f", v[i]);
+
+		if (i!=10)
+		{
+			printf(" ");
+		}
 	}
 	
-	printf(" %.1f}\n", v[9]);
-
-	//TODO: Talvez haja uma forma melhor de imprimir os resultados mantendo a estética {v1, v2, ..., vn}
+	printf("}\n");
 }
 
 void preencher_vetor(float v[])
