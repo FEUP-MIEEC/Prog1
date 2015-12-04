@@ -28,7 +28,10 @@ int contaRepeticao(int v[], int tamanhoVetor, int numero)
 				seq_maior = seq_atual;
 			}
 
-			i = j + 1; //[otimização] Todos os números até o indice 'j' foram verificados, logo 'i' deve passar a ser 'j+1'
+			i = j + 1;
+			/*[otimização] 
+			Todos os números até o indice 'j' foram verificados, logo 'i' deve passar a ser o seguinte 'j+1'
+			*/
 		}
 	}
 
@@ -37,21 +40,23 @@ int contaRepeticao(int v[], int tamanhoVetor, int numero)
 
 int main()
 {
-	int size;
-	
-	printf("Quantos numeros vai introduzir?: ");
-	scanf("%d", &size);
-	/*fim da estupidez*/
 
-	int v[size], j=0, count=1, num;
-
-	//TODO: não é possível definir tamanho de vetores com variáveis... *update* apenas em C99!
+	int v[20], j=0, count=1, num;
+	/*
+	Ao declarar um vetor, é necessário definir o tamanho do mesmo (número de elementos)
+	Optou-se por usar o valor 20, mas poderia ser outro qualquer
+	*/
 
 	while(1)
 	{
 		int x;
 		printf("Introduza um numero: ");
 		scanf("%d", &x);
+		if (j==20)
+		{
+			printf("Atingiu o limite. No máximo apenas pode inserir 20 valores.\n");
+			break;
+		}
 
 		if (x<0)
 		{
@@ -65,5 +70,5 @@ int main()
 	printf("Numero a pesquisar: ");
 	scanf("%d", &num);
 
-	printf("Maior sequencia com numeros %d tem tamanho %d\n", num, contaRepeticao(v, size, num));
+	printf("Maior sequencia com numeros %d tem tamanho %d\n", num, contaRepeticao(v, 20, num));
 }
