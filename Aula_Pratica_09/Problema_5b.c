@@ -9,7 +9,7 @@ int main()
 	{
 		printf("Introduza uma nota: ");
 		scanf("%f", &v[n]);
-		if(v[n] > 0){
+		if(v[n] >= 0){
 			sum += v[n];
 			n++;
 		}
