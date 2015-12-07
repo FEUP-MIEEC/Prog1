@@ -1,11 +1,11 @@
-// Paula Graça
+// Paula Graï¿½a
 
 #include <stdio.h>
 
 int main () {
 	int aprovados=0, semfrequencia=0;
 	int i, F, MT;
-	float nota;
+	double nota;
 
 	for(i=0; i<20; i++)
 	{
@@ -20,8 +20,8 @@ int main () {
 			aprovados+=1;
 		}
 	}
-	printf("Estudantes sem frequência: %d\n", semfrequencia);
-	printf("Aprovações: %0.1f %% \n", aprovados/20.0*100);
+	printf("Estudantes sem frequï¿½ncia: %d\n", semfrequencia);
+	printf("Aprovaï¿½ï¿½es: %0.1f %% \n", aprovados/20.0*100);
 
 	return 0;
 }

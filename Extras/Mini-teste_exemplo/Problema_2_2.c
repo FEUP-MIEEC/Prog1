@@ -4,7 +4,6 @@
 
 char movimento(int x0, int y0, int x1, int y1)
 {
-	char movimento;
 		if(y1 - y0 == 1)
 			return 'C';
 		else if(y1 - y0 == -1)

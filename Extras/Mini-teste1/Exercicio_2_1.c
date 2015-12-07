@@ -11,14 +11,16 @@ int main(){
 	while(scanf("%d %c", &n, &a) == 2){
 		switch(a){
 			case 'b':
-			printf("%d	Conversão Indisponível\n", n);
-			break;
+				printf("%d	Conversão Indisponível\n", n);
+				break;
 			case 'o':
-			printf("%d	%o\n", n, n);
-			break;
+				printf("%d	%o\n", n, n);
+				break;
 			case 'h':
-			printf("%d	%x\n", n, n); //entre os valores pode ser também usado \t
-			break;
+				printf("%d	%x\n", n, n); //entre os valores pode ser também usado \t
+				break;
+			default:
+				break;
 		}
 	}
 }
