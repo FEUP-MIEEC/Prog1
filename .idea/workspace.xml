@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="Prog1" targetName="Aula8-Problema2" />
+      <config projectName="Prog1" targetName="MTEX1_Exercicio2_2" />
+      <config projectName="Prog1" targetName="Aula6-Problema1_2" />
+      <config projectName="Prog1" targetName="Aula6-Problema1_1" />
+      <config projectName="Prog1" targetName="MT1_Exercicio1" />
+      <config projectName="Prog1" targetName="Aula7-Problema4_a" />
+      <config projectName="Prog1" targetName="Aula3-Problema5" />
+      <config projectName="Prog1" targetName="MTEX1_Exercicio2_1" />
+      <config projectName="Prog1" targetName="Aula7-Problema8" />
+      <config projectName="Prog1" targetName="Aula7-Problema5_a" />
+      <config projectName="Prog1" targetName="Aula9-Problema5b" />
+      <config projectName="Prog1" targetName="MT1_Exercicio2_2" />
+      <config projectName="Prog1" targetName="MT1_Exercicio2_1" />
+      <config projectName="Prog1" targetName="Aula4-Problema6" />
+      <config projectName="Prog1" targetName="Aula4-Problema5" />
+      <config projectName="Prog1" targetName="Aula4-Problema4" />
+      <config projectName="Prog1" targetName="Aula4-Problema3" />
+      <config projectName="Prog1" targetName="Aula1-input" />
+      <config projectName="Prog1" targetName="Aula4-Problema1" />
+      <config projectName="Prog1" targetName="Aula5-Problema6" />
+      <config projectName="Prog1" targetName="Aula5-Problema5" />
+      <config projectName="Prog1" targetName="Aula5-Problema4" />
+      <config projectName="Prog1" targetName="Aula5-Problema3" />
+      <config projectName="Prog1" targetName="Aula5-Problema2" />
+      <config projectName="Prog1" targetName="Aula5-Problema1" />
+      <config projectName="Prog1" targetName="Aula6-Problema6" />
+      <config projectName="Prog1" targetName="Aula6-Problema5" />
+      <config projectName="Prog1" targetName="Aula6-Problema4" />
+      <config projectName="Prog1" targetName="Aula6-Problema3" />
+      <config projectName="Prog1" targetName="Aula6-Problema2" />
+      <config projectName="Prog1" targetName="Aula6-Problema1" />
+      <config projectName="Prog1" targetName="Aula7-Problema6" />
+      <config projectName="Prog1" targetName="Aula7-Problema5" />
+      <config projectName="Prog1" targetName="Aula7-Problema4" />
+      <config projectName="Prog1" targetName="Aula7-Problema3" />
+      <config projectName="Prog1" targetName="Aula7-Problema2" />
+      <config projectName="Prog1" targetName="Aula7-Problema1" />
+      <config projectName="Prog1" targetName="Aula3-Problema7" />
+      <config projectName="Prog1" targetName="Aula3-Problema6" />
+      <config projectName="Prog1" targetName="Aula8-Problema4" />
+      <config projectName="Prog1" targetName="Aula8-Problema3" />
+      <config projectName="Prog1" targetName="Aula3-Problema3" />
+      <config projectName="Prog1" targetName="Aula8-Problema1" />
+      <config projectName="Prog1" targetName="Aula3-Problema1" />
+      <config projectName="Prog1" targetName="Aula8-Problema1_2" />
+      <config projectName="Prog1" targetName="Aula9-Problema3" />
+      <config projectName="Prog1" targetName="Aula2-Problema1" />
+      <config projectName="Prog1" targetName="Aula9-Problema1" />
+      <config projectName="Prog1" targetName="Aula2-Problema3" />
+      <config projectName="Prog1" targetName="MTEX1_Exercicio2" />
+      <config projectName="Prog1" targetName="Aula9-Problema2" />
+      <config projectName="Prog1" targetName="Prog1" />
+      <config projectName="Prog1" targetName="Aula2-Problema7" />
+      <config projectName="Prog1" targetName="Aula2-Problema8" />
+      <config projectName="Prog1" targetName="Aula9-Problema5" />
+      <config projectName="Prog1" targetName="Aula6-Problema7" />
+      <config projectName="Prog1" targetName="Aula2-Problema5" />
+      <config projectName="Prog1" targetName="Aula2-Problema6" />
+      <config projectName="Prog1" targetName="Aula5-Problema1_2" />
+      <config projectName="Prog1" targetName="Aula5-Problema1_1" />
+      <config projectName="Prog1" targetName="Aula4-Problema2" />
+      <config projectName="Prog1" targetName="Aula2-Problema2" />
+      <config projectName="Prog1" targetName="Aula3-Problema4" />
+      <config projectName="Prog1" targetName="Aula9-Problema5a" />
+      <config projectName="Prog1" targetName="Aula5-Problema1_" />
+      <config projectName="Prog1" targetName="Aula3-Problema8" />
+      <config projectName="Prog1" targetName="Aula1-exp" />
+      <config projectName="Prog1" targetName="MTEX1_Exercicio1" />
+      <config projectName="Prog1" targetName="Aula3-Problema2" />
+      <config projectName="Prog1" targetName="Aula10-Problema4" />
+      <config projectName="Prog1" targetName="Aula10-Problema3" />
+      <config projectName="Prog1" targetName="Aula10-Problema2" />
+      <config projectName="Prog1" targetName="Aula10-Problema1" />
+      <config projectName="Prog1" targetName="Aula2-Problema4" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
+    <ADDITIONAL_GENERATION_ENVIRONMENT>
+      <envs />
+    </ADDITIONAL_GENERATION_ENVIRONMENT>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f84232f6-4cdb-4421-b112-e29dcf4ec80d" name="Default" comment="CLion Configured" />
+    <ignored path="Prog1.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Prog1" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Problema_1.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Aula_Pratica_10/Problema_1.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.16541353">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Extras/Mini-teste_exemplo/Problema_2_2.c" />
+        <option value="$PROJECT_DIR$/Extras/Mini-teste1/Exercicio_2_1.c" />
+        <option value="$PROJECT_DIR$/Extras/Mini-teste_exemplo/Problema_1.c" />
+        <option value="$PROJECT_DIR$/Extras/Mini-teste1/Exercicio_2_2.c" />
+        <option value="$PROJECT_DIR$/Aula_Pratica_10/Problema_1.c" />
+        <option value="$PROJECT_DIR$/Aula_Pratica_10/Problema_2.c" />
+        <option value="$PROJECT_DIR$/Aula_Pratica_10/Problema_3.c" />
+        <option value="$PROJECT_DIR$/Aula_Pratica_10/Problema_4.c" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="238" />
+    <option name="y" value="21" />
+    <option name="width" value="1400" />
+    <option name="height" value="992" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Prog1" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Prog1" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Prog1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Prog1" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Prog1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Aula_Pratica_10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="86" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="103" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="103" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1011" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="90" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="107" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="107" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1015" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+  </component>
+  <component name="RunManager" selected="Application.MTEX1_Exercicio2_2">
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula2-Problema1" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Prog1" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula1-exp" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula1-exp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula1-exp">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula1-input" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula1-input" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula1-input">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula2-Problema1" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula2-Problema1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula2-Problema1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula2-Problema2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula2-Problema2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula2-Problema2">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula2-Problema3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula2-Problema3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula2-Problema3">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula2-Problema4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula2-Problema4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula2-Problema4">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula2-Problema5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula2-Problema5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula2-Problema5">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula2-Problema6" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula2-Problema6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula2-Problema6">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula2-Problema7" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula2-Problema7" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula2-Problema7">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula2-Problema8" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula2-Problema8" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula2-Problema8">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula3-Problema1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula3-Problema1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula3-Problema1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula3-Problema2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula3-Problema2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula3-Problema2">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula3-Problema3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula3-Problema3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula3-Problema3">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula3-Problema4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula3-Problema4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula3-Problema4">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula3-Problema5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula3-Problema5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula3-Problema5">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula3-Problema6" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula3-Problema6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula3-Problema6">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula3-Problema7" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula3-Problema7" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula3-Problema7">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula3-Problema8" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula3-Problema8" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula3-Problema8">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula4-Problema1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula4-Problema1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula4-Problema1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula4-Problema2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula4-Problema2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula4-Problema2">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula4-Problema3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula4-Problema3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula4-Problema3">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula4-Problema4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula4-Problema4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula4-Problema4">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula4-Problema5" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula4-Problema5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula4-Problema5">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula5-Problema5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula5-Problema5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula5-Problema5">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula5-Problema1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula5-Problema1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula5-Problema1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula5-Problema2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula5-Problema2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula5-Problema2">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula5-Problema3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula5-Problema3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula5-Problema3">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula5-Problema4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula5-Problema4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula5-Problema4">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula5-Problema6" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula5-Problema6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula5-Problema6">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula6-Problema1_1" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula6-Problema1_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula6-Problema1_1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula6-Problema1_2" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula6-Problema1_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula6-Problema1_2">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula6-Problema2" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula6-Problema2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula6-Problema2">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula6-Problema3" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula6-Problema3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula6-Problema3">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula6-Problema4" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula6-Problema4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula6-Problema4">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula6-Problema5" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula6-Problema5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula6-Problema5">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula6-Problema6" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula6-Problema6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula6-Problema6">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula6-Problema7" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula6-Problema7" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula6-Problema7">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula7-Problema1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula7-Problema1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula7-Problema1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula7-Problema2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula7-Problema2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula7-Problema2">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula7-Problema3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula7-Problema3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula7-Problema3">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula7-Problema4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula7-Problema4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula7-Problema4">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula7-Problema4_a" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula7-Problema4_a" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula7-Problema4_a">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula7-Problema5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula7-Problema5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula7-Problema5">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula7-Problema5_a" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula7-Problema5_a" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula7-Problema5_a">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula7-Problema6" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula7-Problema6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula7-Problema6">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula7-Problema8" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula7-Problema8" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula7-Problema8">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula8-Problema1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula8-Problema1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula8-Problema1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula8-Problema1_2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula8-Problema1_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula8-Problema1_2">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula8-Problema2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula8-Problema2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula8-Problema2">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula8-Problema3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula8-Problema3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula8-Problema3">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula8-Problema4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula8-Problema4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula8-Problema4">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula9-Problema1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula9-Problema1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula9-Problema1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula9-Problema2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula9-Problema2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula9-Problema2">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula9-Problema3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula9-Problema3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula9-Problema3">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula9-Problema5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula9-Problema5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula9-Problema5">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula9-Problema5a" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula9-Problema5a" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula9-Problema5a">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula9-Problema5b" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula9-Problema5b" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula9-Problema5b">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula10-Problema1" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula10-Problema1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula10-Problema1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula10-Problema2" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula10-Problema2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula10-Problema2">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula10-Problema3" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula10-Problema3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula10-Problema3">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Aula10-Problema4" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula10-Problema4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula10-Problema4">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MTEX1_Exercicio1" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="MTEX1_Exercicio1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="MTEX1_Exercicio1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MTEX1_Exercicio2_1" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="MTEX1_Exercicio2_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="MTEX1_Exercicio2_1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MTEX1_Exercicio2_2" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="MTEX1_Exercicio2_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="MTEX1_Exercicio2_2">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MT1_Exercicio1" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="MT1_Exercicio1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="MT1_Exercicio1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MT1_Exercicio2_1" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="MT1_Exercicio2_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="MT1_Exercicio2_1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MT1_Exercicio2_2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="MT1_Exercicio2_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="MT1_Exercicio2_2">
+      <envs />
+      <method />
+    </configuration>
+    <list size="67">
+      <item index="0" class="java.lang.String" itemvalue="Application.Aula1-exp" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Aula1-input" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Aula2-Problema1" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Aula2-Problema2" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Aula2-Problema3" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Aula2-Problema4" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Aula2-Problema5" />
+      <item index="7" class="java.lang.String" itemvalue="Application.Aula2-Problema6" />
+      <item index="8" class="java.lang.String" itemvalue="Application.Aula2-Problema7" />
+      <item index="9" class="java.lang.String" itemvalue="Application.Aula2-Problema8" />
+      <item index="10" class="java.lang.String" itemvalue="Application.Aula3-Problema1" />
+      <item index="11" class="java.lang.String" itemvalue="Application.Aula3-Problema2" />
+      <item index="12" class="java.lang.String" itemvalue="Application.Aula3-Problema3" />
+      <item index="13" class="java.lang.String" itemvalue="Application.Aula3-Problema4" />
+      <item index="14" class="java.lang.String" itemvalue="Application.Aula3-Problema5" />
+      <item index="15" class="java.lang.String" itemvalue="Application.Aula3-Problema6" />
+      <item index="16" class="java.lang.String" itemvalue="Application.Aula3-Problema7" />
+      <item index="17" class="java.lang.String" itemvalue="Application.Aula3-Problema8" />
+      <item index="18" class="java.lang.String" itemvalue="Application.Aula4-Problema1" />
+      <item index="19" class="java.lang.String" itemvalue="Application.Aula4-Problema2" />
+      <item index="20" class="java.lang.String" itemvalue="Application.Aula4-Problema3" />
+      <item index="21" class="java.lang.String" itemvalue="Application.Aula4-Problema4" />
+      <item index="22" class="java.lang.String" itemvalue="Application.Aula4-Problema5" />
+      <item index="23" class="java.lang.String" itemvalue="Application.Aula5-Problema5" />
+      <item index="24" class="java.lang.String" itemvalue="Application.Aula5-Problema1" />
+      <item index="25" class="java.lang.String" itemvalue="Application.Aula5-Problema2" />
+      <item index="26" class="java.lang.String" itemvalue="Application.Aula5-Problema3" />
+      <item index="27" class="java.lang.String" itemvalue="Application.Aula5-Problema4" />
+      <item index="28" class="java.lang.String" itemvalue="Application.Aula5-Problema6" />
+      <item index="29" class="java.lang.String" itemvalue="Application.Aula6-Problema1_1" />
+      <item index="30" class="java.lang.String" itemvalue="Application.Aula6-Problema1_2" />
+      <item index="31" class="java.lang.String" itemvalue="Application.Aula6-Problema2" />
+      <item index="32" class="java.lang.String" itemvalue="Application.Aula6-Problema3" />
+      <item index="33" class="java.lang.String" itemvalue="Application.Aula6-Problema4" />
+      <item index="34" class="java.lang.String" itemvalue="Application.Aula6-Problema5" />
+      <item index="35" class="java.lang.String" itemvalue="Application.Aula6-Problema6" />
+      <item index="36" class="java.lang.String" itemvalue="Application.Aula6-Problema7" />
+      <item index="37" class="java.lang.String" itemvalue="Application.Aula7-Problema1" />
+      <item index="38" class="java.lang.String" itemvalue="Application.Aula7-Problema2" />
+      <item index="39" class="java.lang.String" itemvalue="Application.Aula7-Problema3" />
+      <item index="40" class="java.lang.String" itemvalue="Application.Aula7-Problema4" />
+      <item index="41" class="java.lang.String" itemvalue="Application.Aula7-Problema4_a" />
+      <item index="42" class="java.lang.String" itemvalue="Application.Aula7-Problema5" />
+      <item index="43" class="java.lang.String" itemvalue="Application.Aula7-Problema5_a" />
+      <item index="44" class="java.lang.String" itemvalue="Application.Aula7-Problema6" />
+      <item index="45" class="java.lang.String" itemvalue="Application.Aula7-Problema8" />
+      <item index="46" class="java.lang.String" itemvalue="Application.Aula8-Problema1" />
+      <item index="47" class="java.lang.String" itemvalue="Application.Aula8-Problema1_2" />
+      <item index="48" class="java.lang.String" itemvalue="Application.Aula8-Problema2" />
+      <item index="49" class="java.lang.String" itemvalue="Application.Aula8-Problema3" />
+      <item index="50" class="java.lang.String" itemvalue="Application.Aula8-Problema4" />
+      <item index="51" class="java.lang.String" itemvalue="Application.Aula9-Problema1" />
+      <item index="52" class="java.lang.String" itemvalue="Application.Aula9-Problema2" />
+      <item index="53" class="java.lang.String" itemvalue="Application.Aula9-Problema3" />
+      <item index="54" class="java.lang.String" itemvalue="Application.Aula9-Problema5" />
+      <item index="55" class="java.lang.String" itemvalue="Application.Aula9-Problema5a" />
+      <item index="56" class="java.lang.String" itemvalue="Application.Aula9-Problema5b" />
+      <item index="57" class="java.lang.String" itemvalue="Application.Aula10-Problema1" />
+      <item index="58" class="java.lang.String" itemvalue="Application.Aula10-Problema2" />
+      <item index="59" class="java.lang.String" itemvalue="Application.Aula10-Problema3" />
+      <item index="60" class="java.lang.String" itemvalue="Application.Aula10-Problema4" />
+      <item index="61" class="java.lang.String" itemvalue="Application.MTEX1_Exercicio1" />
+      <item index="62" class="java.lang.String" itemvalue="Application.MTEX1_Exercicio2_1" />
+      <item index="63" class="java.lang.String" itemvalue="Application.MTEX1_Exercicio2_2" />
+      <item index="64" class="java.lang.String" itemvalue="Application.MT1_Exercicio1" />
+      <item index="65" class="java.lang.String" itemvalue="Application.MT1_Exercicio2_1" />
+      <item index="66" class="java.lang.String" itemvalue="Application.MT1_Exercicio2_2" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f84232f6-4cdb-4421-b112-e29dcf4ec80d" name="Default" comment="" />
+      <created>1449511027051</created>
+      <option name="number" value="Default" />
+      <updated>1449511027051</updated>
+    </task>
+    <task id="LOCAL-00001" summary="CLion Configuration for the entire folder">
+      <created>1449511225477</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1449511225477</updated>
+    </task>
+    <task id="LOCAL-00002" summary="CMakeLists Configuration">
+      <created>1449511450203</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1449511450203</updated>
+    </task>
+    <task id="LOCAL-00003" summary="CMakeLists Update ver 0.5">
+      <created>1449512315099</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1449512315099</updated>
+    </task>
+    <task id="LOCAL-00004" summary="CMakeLists Update finalized">
+      <created>1449521925475</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1449521925475</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Clean up working directory, and various optimizations">
+      <created>1449527337029</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1449527337029</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Inicialized Aula 10">
+      <created>1449527462270</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1449527462270</updated>
+    </task>
+    <task id="LOCAL-00007" summary="CLion Configured">
+      <created>1449527536028</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1449527536028</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="238" y="21" width="1400" height="992" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25461254" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972324" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32851985" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32851985" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32851985" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972324" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="CLion Configuration for the entire folder" />
+    <MESSAGE value="CMakeLists Configuration" />
+    <MESSAGE value="CMakeLists Update ver 0.5" />
+    <MESSAGE value="CMakeLists Update finalized" />
+    <MESSAGE value="Clean up working directory" />
+    <MESSAGE value="Clean up working directory, and various optimizations" />
+    <MESSAGE value="Inicialized Aula 10" />
+    <MESSAGE value="CLion Configured" />
+    <option name="LAST_COMMIT_MESSAGE" value="CLion Configured" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aula_Pratica_06/Problema_2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29277566">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extras/Mini-teste_exemplo/Problema_2_2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extras/Mini-teste1/Exercicio_2_1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6764708">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extras/Mini-teste_exemplo/Problema_1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aula_Pratica_07/Problema_2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1314286">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aula_Pratica_07/Problema_4_a.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extras/Mini-teste1/Exercicio_2_2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42105263">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24812031">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aula_Pratica_10/Problema_2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aula_Pratica_10/Problema_3.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aula_Pratica_10/Problema_4.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16541353">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aula_Pratica_10/Problema_1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16541353">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
