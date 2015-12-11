@@ -21,7 +21,7 @@ int main()
     scanf("%d", &x);
     procuraTodos(v, N, x, posicoes, &nPosicoes);
     printf("Foi encontrado o número %d vezes, nas posições ", nPosicoes);
-    for (z = 0; posicoes[z] != 0; z++) {
+    for (z = 0; z < nPosicoes; z++) {
         printf("%d ", posicoes[z]);
     }
     return 0;
