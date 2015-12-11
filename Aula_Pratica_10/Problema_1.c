@@ -13,7 +13,7 @@ int main()
     printf("Qual é o tamanho do vetor? ");
     scanf("%d", &N);
     printf("Insira uma série de números: ");
-    for (i = 0; i < N - 1; i++) {
+    for (i = 0; i < N; i++) {
         printf("Insira o %dº número: ", i + 1);
         scanf("%d", &v[i]);
     }
@@ -29,10 +29,10 @@ int main()
 
 int procuraTodos(int *v, int N, int x, int *posicoes, int *nPosicoes) {
     int j;
-    for (j = 0; j < N - 1; ++j) {
+    for (j = 0; j < N; ++j) {
         if (x == v[j]) {
             posicoes[*nPosicoes] = j;
-            nPosicoes++;
+            *nPosicoes += 1;
         }
     }
     if (nPosicoes > 0) return 1;
