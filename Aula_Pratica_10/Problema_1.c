@@ -7,17 +7,10 @@ int procuraTodos(int *v, int N, int x, int *posicoes, int *nPosicoes);
 
 int main()
 {
-    int v[100], N, x, posicoes[100], nPosicoes = 0, i, z;
-
-    printf("Qual é o tamanho do vetor? ");
-    scanf("%d", &N);
-    printf("Insira uma série de números: ");
-    for (i = 0; i < N; i++) {
-        printf("Insira o %dº número: ", i + 1);
-        scanf("%d", &v[i]);
-    }
+    int v[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, N, x, posicoes[100], nPosicoes = 0, z;
     printf("Que valor pretende procurar? ");
     scanf("%d", &x);
+    N = 10;
     procuraTodos(v, N, x, posicoes, &nPosicoes);
     printf("Foi encontrado o número %d vezes, nas posições ", nPosicoes);
     for (z = 0; z < nPosicoes; z++) {
