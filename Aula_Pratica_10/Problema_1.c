@@ -1,6 +1,7 @@
 /*
  *  Created on: 08/12/2015
  *  Author: Fábio Gaspar
+ *  Revised by: Daniel Silva
  */
 #include <stdio.h>
 
@@ -8,20 +9,60 @@ int procuraTodos(int *v, int N, int x, int *posicoes, int *nPosicoes);
 
 int main()
 {
-    int v[100], N, x, posicoes[100], nPosicoes, i;
+	int v[100], posicoes[100], N, x, nPosicoes, j=0;
 
-    printf("Qual é o tamanho do vetor? ");
-    scanf("%d", &N);
-    printf("Insira uma série de números: ");
-    for (i = 0; i < N; i++) {
-        printf("Insira o %dº número", i + 1);
-        scanf("%d", v[i]);
-    }
+	printf("Quantos valores pretende inserir: ");
+	scanf("%d", &N);
 
-    return 0;
+	printf("Introduza os valores\n");
+
+	while (j < N)
+	{
+		scanf("%d", &v[j]);
+		j++;
+	}
+
+	printf("Qual o valor a procurar?:");
+	scanf("%d", &x);
+
+	/*Testar*/
+	if (procuraTodos(v, N, x, posicoes, &nPosicoes)) //Foram encontrados valores
+	{
+		printf("Foram encontrada(s) %d correspondencia(s) do numero %d\n", nPosicoes, x);
+		printf("Posicoes: ");
+		for (int i = 0; i < nPosicoes; ++i)
+		{
+			printf("%d ", posicoes[i]);
+		}
+		printf("\n");
+
+	}
+	else printf("Nao foi encontrado nenhum valor de %d\n", x);
+
 }
 
-int procuraTodos(int *v, int N, int x, int *posicoes, int *nPosicoes) {
+int procuraTodos(int *v, int N, int x, int *posicoes, int *nPosicoes)
+{
+	*nPosicoes=0;
+	int j = 0;
+	for (int i = 0; i < N; ++i)
+	{
 
-    return 0;
+		if (v[i]==x)
+		{
+
+			posicoes[j]=i;
+			++*nPosicoes;
+
+			//Testar
+			printf("v[%d]=%d; posicoes[%d]=%d; npos %d\n",i,v[i],j,i, *nPosicoes);
+
+			j++;
+
+		}
+	}
+
+	if (nPosicoes==0) return 0;
+
+	else return 1;
 }
