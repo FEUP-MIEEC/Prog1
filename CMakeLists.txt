@@ -72,5 +72,6 @@ add_executable(Aula10-Problema1 Aula_Pratica_10/Problema_1.c)
 add_executable(Aula10-Problema2 Aula_Pratica_10/Problema_2.c)
 add_executable(Aula10-Problema3 Aula_Pratica_10/Problema_3.c)
 add_executable(Aula10-Problema4 Aula_Pratica_10/Problema_4.c)
+add_executable(Aula10-Problema1_c Aula_Pratica_10/Problema_1_b.c)
 
 
