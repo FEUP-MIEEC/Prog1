@@ -88,7 +88,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f84232f6-4cdb-4421-b112-e29dcf4ec80d" name="Default" comment="Aula 10 Exercicio 1">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_10/Problema_1.c" afterPath="$PROJECT_DIR$/Aula_Pratica_10/Problema_1.c" />
     </list>
     <ignored path="Prog1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -702,7 +701,13 @@
       <option name="project" value="LOCAL" />
       <updated>1449845307499</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Aula 10 Exercicio 1">
+      <created>1449845523008</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1449845523008</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
