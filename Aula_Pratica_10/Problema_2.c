@@ -1,6 +1,7 @@
 /*
  *  Created on: 08/12/2015
  *  Author: Fábio Gaspar
+ *  Revised by: Daniel Silva
  */
 #include <stdio.h>
 #include <string.h>
@@ -11,26 +12,17 @@
 
  int main()
  {
- 	char input[MAX], output[MAX];
+ 	char input[MAX], output[MAX]; int i=0;
 
- 	printf("Escreva uma string com menos que %d caracteres: ", MAX-1);
- 	fgets(input, MAX, stdin);
+ 	printf("Escreva uma string com menos que %d caracteres, terminando com (.): ", MAX-1);
+	while(1){
+		scanf("%c", (input+i)); // Ou scanf("%c", &input[i]); dado que input[] = *input
+		if (input[i]=='.') break;
+		i++;
+	}
+	int a;
 
- 	int a;
- 	while(1)
- 	{
-	 	a = (strlen(input) - 2); 
-		/*
-		Se o input for 'aaabbb.', char array tem tamanho 8, pois {'a','a','a','b','b','b','c','\0'}
-		Então, uma vez que o vetor começa no indice 0, decrementam-se duas unidades para ajustar os indices e outra para excluir o '\0'
-		*/
-		if(input[a] == '.') break;
-
-		//TODO
- 	}
- 	
-
- 	compacta(input, a, output);
+ 	compacta(input, i, output);
 
  	printf("Output: %s\n", output);
  }
@@ -38,21 +30,16 @@
   int compacta(char *orig, int N, char *dst)
   {
   	int flags[MAX] = {0};
-  	int i;
+  	int i, j;
   	for ( i = 0; i < N; ++i)
   	{
   		char aux = orig[i];
-  		int j=i+1;
 
-  		for (j ; j < N; ++j)
+  		for (j=i+1; orig[j]==aux; ++j)
   		{
-  			if (orig[j]==aux)
-  			{
   				flags[j]=1;
-  			}
   		}
   	}
-
   	int k=0;
   	for (int i = 0; i < N; ++i)
   	{
@@ -62,7 +49,5 @@
   			k++;
   		}
   	}
-
   	return k;
-
   }
