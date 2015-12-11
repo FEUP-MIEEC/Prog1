@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.3)
 project(Prog1)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c99")
 
 set(SOURCE_FILES)
 add_executable(MTEX1_Exercicio1 Extras/Mini-teste_exemplo/Problema_1.c)
