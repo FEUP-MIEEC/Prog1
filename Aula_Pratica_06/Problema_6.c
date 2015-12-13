@@ -5,40 +5,41 @@
 
 #include <stdio.h>
 #include <math.h>
-int main()
-{
-	printf("Bem-vindo!\n");
 
-	//iniciação de variáveis
+int main() {
+    printf("Bem-vindo!\n");
 
-	double a, b, c, i;
-	int i2;
-	//recolha de dados
+    //iniciação de variáveis
 
-	printf("Qual é o valor de a?\n");
-	scanf("%lf", &a);
+    double a, b, c, i;
+    int i2;
+    //recolha de dados
 
-	printf("Qual é o valor de b?\n");
-	scanf("%lf", &b);
+    printf("Qual é o valor de a?\n");
+    scanf("%lf", &a);
 
-	printf("Qual é o valor de c?\n");
-	scanf("%lf", &c);
+    printf("Qual é o valor de b?\n");
+    scanf("%lf", &b);
 
-	//aplicação da fórmula
+    printf("Qual é o valor de c?\n");
+    scanf("%lf", &c);
 
-	double x1= (-b+sqrt(pow(b,2)-4*a*c))/(2*a);
-	double x2= (-b-sqrt(pow(b,2)-4*a*c))/(2*a);
+    //aplicação da fórmula
 
-	//verificar quantas soluções existem e imprimir
+    double x1 = (-b + sqrt(pow(b, 2) - 4 * a * c)) / (2 * a);
+    double x2 = (-b - sqrt(pow(b, 2) - 4 * a * c)) / (2 * a);
 
-	if (pow(b,2)-4*a*c < 0){
-		printf("Não existe nenhuma solução real\n");
-		printf("Tem raizes complexas: %lf+(%lfi) e %lf-(%lfi)\n", (-b)/(2*a), sqrt(-((pow(b,2)-4*a*c)))/(2*a), (-b)/(2*a), sqrt(-((pow(b,2)-4*a*c)))/(2*a));
-	}
-	else if (x1 == x2){
-		printf("A solução é uma raíz dupla:\n%lf\n", x1);
-	}
-	else{
-		printf("Existem duas soluções reais:\n%lf\n%lf\n", x1, x2);
-	}
+    //verificar quantas soluções existem e imprimir
+
+    if (pow(b, 2) - 4 * a * c < 0) {
+        printf("Não existe nenhuma solução real\n");
+        printf("Tem raizes complexas: %lf+(%lfi) e %lf-(%lfi)\n", (-b) / (2 * a),
+               sqrt(-((pow(b, 2) - 4 * a * c))) / (2 * a), (-b) / (2 * a), sqrt(-((pow(b, 2) - 4 * a * c))) / (2 * a));
+    }
+    else if (x1 == x2) {
+        printf("A solução é uma raíz dupla:\n%lf\n", x1);
+    }
+    else {
+        printf("Existem duas soluções reais:\n%lf\n%lf\n", x1, x2);
+    }
 }

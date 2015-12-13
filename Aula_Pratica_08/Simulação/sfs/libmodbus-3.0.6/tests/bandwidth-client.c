@@ -27,10 +27,9 @@
 
 #define G_MSEC_PER_SEC 1000
 
-uint32_t gettime_ms(void)
-{
+uint32_t gettime_ms(void) {
     struct timeval tv;
-    gettimeofday (&tv, NULL);
+    gettimeofday(&tv, NULL);
 
     return (uint32_t) tv.tv_sec * 1000 + tv.tv_usec / 1000;
 }
@@ -41,8 +40,7 @@ enum {
 };
 
 /* Tests based on PI-MBUS-300 documentation */
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
     uint8_t *tab_bit;
     uint16_t *tab_reg;
     modbus_t *ctx;
@@ -99,7 +97,7 @@ int main(int argc, char *argv[])
 
     nb_points = MODBUS_MAX_READ_BITS;
     start = gettime_ms();
-    for (i=0; i<n_loop; i++) {
+    for (i = 0; i < n_loop; i++) {
         rc = modbus_read_bits(ctx, 0, nb_points, tab_bit);
         if (rc == -1) {
             fprintf(stderr, "%s\n", modbus_strerror(errno));
@@ -136,7 +134,7 @@ int main(int argc, char *argv[])
 
     nb_points = MODBUS_MAX_READ_REGISTERS;
     start = gettime_ms();
-    for (i=0; i<n_loop; i++) {
+    for (i = 0; i < n_loop; i++) {
         rc = modbus_read_registers(ctx, 0, nb_points, tab_reg);
         if (rc == -1) {
             fprintf(stderr, "%s\n", modbus_strerror(errno));
@@ -173,7 +171,7 @@ int main(int argc, char *argv[])
 
     nb_points = MODBUS_MAX_RW_WRITE_REGISTERS;
     start = gettime_ms();
-    for (i=0; i<n_loop; i++) {
+    for (i = 0; i < n_loop; i++) {
         rc = modbus_write_and_read_registers(ctx,
                                              0, nb_points, tab_reg,
                                              0, nb_points, tab_reg);

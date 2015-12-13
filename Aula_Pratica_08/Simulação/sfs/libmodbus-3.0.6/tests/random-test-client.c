@@ -44,8 +44,7 @@
 /* At each loop, the program works in the range ADDRESS_START to
  * ADDRESS_END then ADDRESS_START + 1 to ADDRESS_END and so on.
  */
-int main(void)
-{
+int main(void) {
     modbus_t *ctx;
     int rc;
     int nb_fail;
@@ -99,8 +98,8 @@ int main(void)
             int i;
 
             /* Random numbers (short) */
-            for (i=0; i<nb; i++) {
-                tab_rq_registers[i] = (uint16_t) (65535.0*rand() / (RAND_MAX + 1.0));
+            for (i = 0; i < nb; i++) {
+                tab_rq_registers[i] = (uint16_t) (65535.0 * rand() / (RAND_MAX + 1.0));
                 tab_rw_rq_registers[i] = ~tab_rq_registers[i];
                 tab_rq_bits[i] = tab_rq_registers[i] % 2;
             }
@@ -134,7 +133,7 @@ int main(void)
                     printf("Address = %d, nb = %d\n", addr, nb);
                     nb_fail++;
                 } else {
-                    for (i=0; i<nb; i++) {
+                    for (i = 0; i < nb; i++) {
                         if (tab_rp_bits[i] != tab_rq_bits[i]) {
                             printf("ERROR modbus_read_bits\n");
                             printf("Address = %d, value %d (0x%X) != %d (0x%X)\n",
@@ -183,7 +182,7 @@ int main(void)
                     printf("Address = %d, nb = %d\n", addr, nb);
                     nb_fail++;
                 } else {
-                    for (i=0; i<nb; i++) {
+                    for (i = 0; i < nb; i++) {
                         if (tab_rq_registers[i] != tab_rp_registers[i]) {
                             printf("ERROR modbus_read_registers\n");
                             printf("Address = %d, value %d (0x%X) != %d (0x%X)\n",
@@ -203,7 +202,7 @@ int main(void)
                 printf("Address = %d, nb = %d\n", addr, nb);
                 nb_fail++;
             } else {
-                for (i=0; i<nb; i++) {
+                for (i = 0; i < nb; i++) {
                     if (tab_rp_registers[i] != tab_rw_rq_registers[i]) {
                         printf("ERROR modbus_read_and_write_registers READ\n");
                         printf("Address = %d, value %d (0x%X) != %d (0x%X)\n",
@@ -219,7 +218,7 @@ int main(void)
                     printf("Address = %d, nb = %d\n", addr, nb);
                     nb_fail++;
                 } else {
-                    for (i=0; i<nb; i++) {
+                    for (i = 0; i < nb; i++) {
                         if (tab_rw_rq_registers[i] != tab_rp_registers[i]) {
                             printf("ERROR modbus_read_and_write_registers WRITE\n");
                             printf("Address = %d, value %d (0x%X) != %d (0x%X)\n",

@@ -5,24 +5,23 @@
 
 #include <stdio.h>
 
-int main(){
+int main() {
 
-	int n,a,b,c;
+    int n, a, b, c;
 
-	printf("Insira um número de três digitos\n");
+    printf("Insira um número de três digitos\n");
 
-	scanf("%d", &n);
+    scanf("%d", &n);
 
-	a= n/100;
-	c= n%10;
+    a = n / 100;
+    c = n % 10;
 
 
-	if (a==c)
-	{
-		printf("O número é capicua\n");
-	} else{
-		printf("O número não é capicua\n");
-	}
+    if (a == c) {
+        printf("O número é capicua\n");
+    } else {
+        printf("O número não é capicua\n");
+    }
 
 }
 

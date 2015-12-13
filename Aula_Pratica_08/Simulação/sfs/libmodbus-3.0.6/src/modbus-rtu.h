@@ -28,13 +28,14 @@ MODBUS_BEGIN_DECLS
  */
 #define MODBUS_RTU_MAX_ADU_LENGTH  256
 
-modbus_t* modbus_new_rtu(const char *device, int baud, char parity,
+modbus_t *modbus_new_rtu(const char *device, int baud, char parity,
                          int data_bit, int stop_bit);
 
 #define MODBUS_RTU_RS232 0
 #define MODBUS_RTU_RS485 1
 
 int modbus_rtu_set_serial_mode(modbus_t *ctx, int mode);
+
 int modbus_rtu_get_serial_mode(modbus_t *ctx);
 
 MODBUS_END_DECLS

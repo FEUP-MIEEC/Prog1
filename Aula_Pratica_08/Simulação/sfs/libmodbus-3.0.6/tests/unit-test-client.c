@@ -30,8 +30,7 @@ enum {
     RTU
 };
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
     uint8_t *tab_rp_bits;
     uint16_t *tab_rp_registers;
     uint16_t *tab_rp_registers_bad;
@@ -49,7 +48,7 @@ int main(int argc, char *argv[])
     if (argc > 1) {
         if (strcmp(argv[1], "tcp") == 0) {
             use_backend = TCP;
-	} else if (strcmp(argv[1], "tcppi") == 0) {
+        } else if (strcmp(argv[1], "tcppi") == 0) {
             use_backend = TCP_PI;
         } else if (strcmp(argv[1], "rtu") == 0) {
             use_backend = RTU;
@@ -79,7 +78,7 @@ int main(int argc, char *argv[])
                               MODBUS_ERROR_RECOVERY_PROTOCOL);
 
     if (use_backend == RTU) {
-          modbus_set_slave(ctx, SERVER_ID);
+        modbus_set_slave(ctx, SERVER_ID);
     }
 
     if (modbus_connect(ctx) == -1) {
@@ -96,7 +95,7 @@ int main(int argc, char *argv[])
 
     /* Allocate and initialize the memory to store the registers */
     nb_points = (UT_REGISTERS_NB > UT_INPUT_REGISTERS_NB) ?
-        UT_REGISTERS_NB : UT_INPUT_REGISTERS_NB;
+                UT_REGISTERS_NB : UT_INPUT_REGISTERS_NB;
     tab_rp_registers = (uint16_t *) malloc(nb_points * sizeof(uint16_t));
     memset(tab_rp_registers, 0, nb_points * sizeof(uint16_t));
 
@@ -158,7 +157,7 @@ int main(int argc, char *argv[])
     while (nb_points > 0) {
         int nb_bits = (nb_points > 8) ? 8 : nb_points;
 
-        value = modbus_get_byte_from_bits(tab_rp_bits, i*8, nb_bits);
+        value = modbus_get_byte_from_bits(tab_rp_bits, i * 8, nb_bits);
         if (value != UT_BITS_TAB[i]) {
             printf("FAILED (%0X != %0X)\n", value, UT_BITS_TAB[i]);
             goto close;
@@ -185,7 +184,7 @@ int main(int argc, char *argv[])
     while (nb_points > 0) {
         int nb_bits = (nb_points > 8) ? 8 : nb_points;
 
-        value = modbus_get_byte_from_bits(tab_rp_bits, i*8, nb_bits);
+        value = modbus_get_byte_from_bits(tab_rp_bits, i * 8, nb_bits);
         if (value != UT_INPUT_BITS_TAB[i]) {
             printf("FAILED (%0X != %0X)\n", value, UT_INPUT_BITS_TAB[i]);
             goto close;
@@ -243,7 +242,7 @@ int main(int argc, char *argv[])
         goto close;
     }
 
-    for (i=0; i < UT_REGISTERS_NB; i++) {
+    for (i = 0; i < UT_REGISTERS_NB; i++) {
         if (tab_rp_registers[i] != UT_REGISTERS_TAB[i]) {
             printf("FAILED (%0X != %0X)\n",
                    tab_rp_registers[i],
@@ -264,7 +263,7 @@ int main(int argc, char *argv[])
 
     nb_points = (UT_REGISTERS_NB >
                  UT_INPUT_REGISTERS_NB) ?
-        UT_REGISTERS_NB : UT_INPUT_REGISTERS_NB;
+                UT_REGISTERS_NB : UT_INPUT_REGISTERS_NB;
     memset(tab_rp_registers, 0, nb_points * sizeof(uint16_t));
 
     /* Write registers to zero from tab_rp_registers and store read registers
@@ -287,7 +286,7 @@ int main(int argc, char *argv[])
                tab_rp_registers[0], UT_REGISTERS_TAB[0]);
     }
 
-    for (i=1; i < UT_REGISTERS_NB; i++) {
+    for (i = 1; i < UT_REGISTERS_NB; i++) {
         if (tab_rp_registers[i] != 0) {
             printf("FAILED (%0X != %0X)\n",
                    tab_rp_registers[i], 0);
@@ -309,7 +308,7 @@ int main(int argc, char *argv[])
         goto close;
     }
 
-    for (i=0; i < UT_INPUT_REGISTERS_NB; i++) {
+    for (i = 0; i < UT_INPUT_REGISTERS_NB; i++) {
         if (tab_rp_registers[i] != UT_INPUT_REGISTERS_TAB[i]) {
             printf("FAILED (%0X != %0X)\n",
                    tab_rp_registers[i], UT_INPUT_REGISTERS_TAB[i]);
@@ -495,7 +494,7 @@ int main(int argc, char *argv[])
                                UT_REGISTERS_NB, tab_rp_registers);
     if (use_backend == RTU) {
         const int RAW_REQ_LENGTH = 6;
-        uint8_t raw_req[] = { INVALID_SERVER_ID, 0x03, 0x00, 0x01, 0xFF, 0xFF };
+        uint8_t raw_req[] = {INVALID_SERVER_ID, 0x03, 0x00, 0x01, 0xFF, 0xFF};
         uint8_t rsp[MODBUS_TCP_MAX_ADU_LENGTH];
 
         /* No response in RTU mode */
@@ -585,7 +584,7 @@ int main(int argc, char *argv[])
     /* Print additional data as string */
     if (rc > 2) {
         printf("Additional data: ");
-        for (i=2; i < rc; i++) {
+        for (i = 2; i < rc; i++) {
             printf("%c", tab_rp_bits[i]);
         }
         printf("\n");
@@ -619,7 +618,7 @@ int main(int argc, char *argv[])
 
     /* Allocate only the required space */
     tab_rp_registers_bad = (uint16_t *) malloc(
-        UT_REGISTERS_NB_SPECIAL * sizeof(uint16_t));
+            UT_REGISTERS_NB_SPECIAL * sizeof(uint16_t));
     rc = modbus_read_registers(ctx, UT_REGISTERS_ADDRESS,
                                UT_REGISTERS_NB_SPECIAL, tab_rp_registers_bad);
     printf("* modbus_read_registers: ");
@@ -649,8 +648,8 @@ int main(int argc, char *argv[])
     printf("\nTEST RAW REQUEST:\n");
     {
         const int RAW_REQ_LENGTH = 6;
-        uint8_t raw_req[] = { (use_backend == RTU) ? SERVER_ID : 0xFF,
-                              0x03, 0x00, 0x01, 0x0, 0x05 };
+        uint8_t raw_req[] = {(use_backend == RTU) ? SERVER_ID : 0xFF,
+                             0x03, 0x00, 0x01, 0x0, 0x05};
         int req_length;
         uint8_t rsp[MODBUS_TCP_MAX_ADU_LENGTH];
 
@@ -668,7 +667,7 @@ int main(int argc, char *argv[])
         }
 
         printf("* modbus_receive_confirmation: ");
-        rc  = modbus_receive_confirmation(ctx, rsp);
+        rc = modbus_receive_confirmation(ctx, rsp);
         if ((use_backend == RTU && rc == 15) ||
             ((use_backend == TCP || use_backend == TCP_PI) &&
              rc == 19)) {
@@ -681,7 +680,7 @@ int main(int argc, char *argv[])
 
     printf("\nALL TESTS PASS WITH SUCCESS.\n");
 
-close:
+    close:
     /* Free the memory */
     free(tab_rp_bits);
     free(tab_rp_registers);

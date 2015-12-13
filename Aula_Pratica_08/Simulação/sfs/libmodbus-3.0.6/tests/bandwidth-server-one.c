@@ -28,15 +28,14 @@ enum {
     RTU
 };
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
     int socket;
     modbus_t *ctx;
     modbus_mapping_t *mb_mapping;
     int rc;
     int use_backend;
 
-     /* TCP */
+    /* TCP */
     if (argc > 1) {
         if (strcmp(argv[1], "tcp") == 0) {
             use_backend = TCP;
@@ -71,7 +70,7 @@ int main(int argc, char *argv[])
         return -1;
     }
 
-    for(;;) {
+    for (; ;) {
         uint8_t query[MODBUS_TCP_MAX_ADU_LENGTH];
 
         rc = modbus_receive(ctx, query);

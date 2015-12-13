@@ -19,7 +19,7 @@
 #define SAT1 3
 #define SAT7 4
 #define SAT2 5
-#define SAT3 6 
+#define SAT3 6
 #define SAT4 7
 #define SAT5 8
 #define SAT6 9
@@ -30,15 +30,26 @@ extern modbus_t *mb;
 extern pthread_mutex_t mutex;
 
 int moveTapete(uint8_t tapete, uint8_t direcao);
+
 int rodaTapete(uint8_t tapete, uint8_t direcao);
+
 int lerSensorTapete(uint8_t tapete, uint8_t parameter);
+
 int moveMaquina(uint8_t maquina, char eixo, uint8_t direcao);
+
 int lerSensorMaquina(uint8_t maquina, char sensor, uint8_t direcao);
+
 void inicializaMaquina(uint8_t maquina);
+
 int tapeteLivre(uint8_t tapete);
+
 void ligaMaquina(uint8_t maquina);
+
 void desligaMaquina(uint8_t maquina);
-void empurraPeca(uint8_t pusher,uint8_t direcao);
-int lerSensorPusher(uint8_t pusher,uint8_t direcao);
+
+void empurraPeca(uint8_t pusher, uint8_t direcao);
+
+int lerSensorPusher(uint8_t pusher, uint8_t direcao);
+
 void temporizador(int tempo);
 

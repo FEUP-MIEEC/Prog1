@@ -6,13 +6,13 @@
 #include <stdio.h>
 
 int main() {
-	int a, b;
-	printf("Insira dois números: ");
-	scanf("%d %d", &a, &b);
-	a = a+b;
-	b = a-b;
-	a = a-b;
+    int a, b;
+    printf("Insira dois números: ");
+    scanf("%d %d", &a, &b);
+    a = a + b;
+    b = a - b;
+    a = a - b;
 
-	printf("Trocando os valores fica: a=%d b=%d\n",a, b);
-	return 0;
+    printf("Trocando os valores fica: a=%d b=%d\n", a, b);
+    return 0;
 }

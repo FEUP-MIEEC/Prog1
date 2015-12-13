@@ -25,7 +25,9 @@
 #include <modbus.h>
 
 #if defined(_WIN32)
+
 #include <ws2tcpip.h>
+
 #else
 #include <sys/socket.h>
 #include <netinet/in.h>
@@ -38,8 +40,7 @@ modbus_t *ctx = NULL;
 int server_socket;
 modbus_mapping_t *mb_mapping;
 
-static void close_sigint(int dummy)
-{
+static void close_sigint(int dummy) {
     close(server_socket);
     modbus_free(ctx);
     modbus_mapping_free(mb_mapping);
@@ -47,8 +48,7 @@ static void close_sigint(int dummy)
     exit(dummy);
 }
 
-int main(void)
-{
+int main(void) {
     int master_socket;
     int rc;
     fd_set refset;
@@ -80,9 +80,9 @@ int main(void)
     /* Keep track of the max file descriptor */
     fdmax = server_socket;
 
-    for (;;) {
+    for (; ;) {
         rdset = refset;
-        if (select(fdmax+1, &rdset, NULL, NULL, NULL) == -1) {
+        if (select(fdmax + 1, &rdset, NULL, NULL, NULL) == -1) {
             perror("Server select() failure.");
             close_sigint(1);
         }
@@ -101,7 +101,7 @@ int main(void)
                     /* Handle new connections */
                     addrlen = sizeof(clientaddr);
                     memset(&clientaddr, 0, sizeof(clientaddr));
-                    newfd = accept(server_socket, (struct sockaddr *)&clientaddr, &addrlen);
+                    newfd = accept(server_socket, (struct sockaddr *) &clientaddr, &addrlen);
                     if (newfd == -1) {
                         perror("Server accept() error");
                     } else {

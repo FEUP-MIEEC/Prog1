@@ -18,8 +18,7 @@
 #include <stdio.h>
 #include <modbus.h>
 
-int main(void)
-{
+int main(void) {
     printf("Compiled with libmodbus version %s\n", LIBMODBUS_VERSION_STRING);
     printf("Linked with libmodbus version %d.%d.%d\n",
            libmodbus_version_major, libmodbus_version_minor, libmodbus_version_micro);

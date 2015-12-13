@@ -5,8 +5,7 @@
 
 int procuraTodos(int *v, int N, int x, int *posicoes, int *nPosicoes);
 
-int main()
-{
+int main() {
     int v[100], N, x, posicoes[100], nPosicoes = 0, i, z;
 
     printf("Qual é o tamanho do vetor? ");

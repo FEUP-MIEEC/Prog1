@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-void histograma(int *prt) 
+void histograma(int *prt)
 /*
 Função só para demonstrar o 'parsing' de vetores nos parametros da função.
 
@@ -18,34 +18,30 @@ void histograma(int prt[6]) - sized array
 
 */
 {
-	for (int i = 0; i < 6; ++i)
-	{
-		printf("\n%d - ", i+1);
+    for (int i = 0; i < 6; ++i) {
+        printf("\n%d - ", i + 1);
 
-		for (int j = 0; j < prt[i]; ++j)
-		{
-			printf("*");
-		}
-	}
+        for (int j = 0; j < prt[i]; ++j) {
+            printf("*");
+        }
+    }
 
-	printf("\n"); //empty line
+    printf("\n"); //empty line
 }
 
-int main()
-{
-	int v[6] = {0}; /*Inicializa vetor com '0' em todos os indices*/
+int main() {
+    int v[6] = {0}; /*Inicializa vetor com '0' em todos os indices*/
 
-	/* initialize random seed: */
-  	srand (time(NULL));
+    /* initialize random seed: */
+    srand(time(NULL));
 
-	for (int i = 0; i < 30; ++i)
-	{
-		int face = rand() % 6 + 1;
+    for (int i = 0; i < 30; ++i) {
+        int face = rand() % 6 + 1;
 
-		v[face-1] +=1;
-	}
+        v[face - 1] += 1;
+    }
 
-	printf("Histograma de 30 lançamentos\n");
-	histograma(v);
+    printf("Histograma de 30 lançamentos\n");
+    histograma(v);
 
 }

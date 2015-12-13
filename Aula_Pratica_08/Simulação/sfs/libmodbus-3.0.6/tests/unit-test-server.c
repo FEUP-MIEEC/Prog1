@@ -30,8 +30,7 @@ enum {
     RTU
 };
 
-int main(int argc, char*argv[])
-{
+int main(int argc, char *argv[]) {
     int socket;
     modbus_t *ctx;
     modbus_mapping_t *mb_mapping;
@@ -73,10 +72,10 @@ int main(int argc, char*argv[])
     modbus_set_debug(ctx, TRUE);
 
     mb_mapping = modbus_mapping_new(
-        UT_BITS_ADDRESS + UT_BITS_NB,
-        UT_INPUT_BITS_ADDRESS + UT_INPUT_BITS_NB,
-        UT_REGISTERS_ADDRESS + UT_REGISTERS_NB,
-        UT_INPUT_REGISTERS_ADDRESS + UT_INPUT_REGISTERS_NB);
+            UT_BITS_ADDRESS + UT_BITS_NB,
+            UT_INPUT_BITS_ADDRESS + UT_INPUT_BITS_NB,
+            UT_REGISTERS_ADDRESS + UT_REGISTERS_NB,
+            UT_INPUT_REGISTERS_ADDRESS + UT_INPUT_REGISTERS_NB);
     if (mb_mapping == NULL) {
         fprintf(stderr, "Failed to allocate the mapping: %s\n",
                 modbus_strerror(errno));
@@ -93,9 +92,9 @@ int main(int argc, char*argv[])
                                UT_INPUT_BITS_TAB);
 
     /** INPUT REGISTERS **/
-    for (i=0; i < UT_INPUT_REGISTERS_NB; i++) {
-        mb_mapping->tab_input_registers[UT_INPUT_REGISTERS_ADDRESS+i] =
-            UT_INPUT_REGISTERS_TAB[i];;
+    for (i = 0; i < UT_INPUT_REGISTERS_NB; i++) {
+        mb_mapping->tab_input_registers[UT_INPUT_REGISTERS_ADDRESS + i] =
+                UT_INPUT_REGISTERS_TAB[i];;
     }
 
     if (use_backend == TCP) {
@@ -113,7 +112,7 @@ int main(int argc, char*argv[])
         }
     }
 
-    for (;;) {
+    for (; ;) {
         rc = modbus_receive(ctx, query);
         if (rc == -1) {
             /* Connection closed by the client or error */
@@ -128,7 +127,7 @@ int main(int argc, char*argv[])
                 MODBUS_SET_INT16_TO_INT8(query, header_length + 3,
                                          UT_REGISTERS_NB_SPECIAL - 1);
             } else if (MODBUS_GET_INT16_FROM_INT8(query, header_length + 1)
-                == UT_REGISTERS_ADDRESS_SPECIAL) {
+                       == UT_REGISTERS_ADDRESS_SPECIAL) {
                 printf("Reply to this special register address by an exception\n");
                 modbus_reply_exception(ctx, query,
                                        MODBUS_EXCEPTION_SLAVE_OR_SERVER_BUSY);

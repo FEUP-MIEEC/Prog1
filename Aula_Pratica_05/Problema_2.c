@@ -4,13 +4,14 @@
  */
 
 #include <stdio.h>
-int main(){
+
+int main() {
 
     char sentence;
     int a = 0, e = 0, i = 0, o = 0, u = 0;
-    while (1){
+    while (1) {
         scanf("%c", &sentence);
-        if (sentence == '.'){
+        if (sentence == '.') {
             break;
         }
         switch (sentence) {
@@ -41,5 +42,5 @@ int main(){
     printf("I - %d\n", i);
     printf("O - %d\n", o);
     printf("U - %d\n", u);
-	return 0;
+    return 0;
 }

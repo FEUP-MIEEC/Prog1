@@ -6,21 +6,18 @@
 #include <unistd.h>
 #include "shopcommunication.h"
 
-modbus_t *mb=NULL;
+modbus_t *mb = NULL;
 pthread_mutex_t mutex;
 
 int n_threads = 0;
 
 
-void* maquinaEstado(void* args)
-{
-	int state = 1;
+void *maquinaEstado(void *args) {
+    int state = 1;
 
-	while(1)
-	{
-		/*---------------------Coloque aqui o seu código-----------------------*/
-        switch(state)
-        {
+    while (1) {
+        /*---------------------Coloque aqui o seu código-----------------------*/
+        switch (state) {
             case 1:
                 if (tapeteLivre(SAT1) && !lerSensorTapete(SAT1, PSENSOR)) {
                     moveTapete(AT1, NEG);
@@ -150,54 +147,50 @@ void* maquinaEstado(void* args)
                 }
                 break;
         }
-        
+
 
         /*---------------Não acrescente código para além deste ponto-----------*/
-		usleep(3);
-	}    	
+        usleep(3);
+    }
 }
 
-int main(int argc, char** argv){
-	char ip[]="127.0.0.1";
-	char port[]="5502";
-	int state = 1;
-	pthread_t SM;
-	
-	/* create connection with shop floor simulator */
-	mb=modbus_new_tcp_pi(ip,port);
-	
-	/* test the connection */
-	if (mb==NULL){
-		printf("Erro na conexão ip %s porta %s.\n",ip,port);
-		return -1;
-	}
-	if (modbus_connect(mb) == -1){
-               fprintf(stderr, "Conexão falhada no ip %s porta %s.\n",ip,port);
-               modbus_free(mb);
-               return -1;
+int main(int argc, char **argv) {
+    char ip[] = "127.0.0.1";
+    char port[] = "5502";
+    int state = 1;
+    pthread_t SM;
+
+    /* create connection with shop floor simulator */
+    mb = modbus_new_tcp_pi(ip, port);
+
+    /* test the connection */
+    if (mb == NULL) {
+        printf("Erro na conexão ip %s porta %s.\n", ip, port);
+        return -1;
+    }
+    if (modbus_connect(mb) == -1) {
+        fprintf(stderr, "Conexão falhada no ip %s porta %s.\n", ip, port);
+        modbus_free(mb);
+        return -1;
+    }
+    else
+        printf("Conexão estabelecida com sucesso no ip %s porta %s.\n", ip, port);
+
+    while (1) {
+        switch (state) {
+            case 1:
+                if (lerSensorTapete(AT1, PSENSOR)) {
+                    pthread_create(&SM, NULL, maquinaEstado, (void *) NULL);
+                    state = 2;
+                }
+                break;
+            case 2:
+                if (!lerSensorTapete(AT1, PSENSOR)) {
+                    state = 1;
+                }
+                break;
         }
-	else
-		printf("Conexão estabelecida com sucesso no ip %s porta %s.\n",ip,port);
-      	
-    while(1)
-    {
-    	switch(state)
-    	{
-		case 1:
-			if (lerSensorTapete(AT1,PSENSOR))
-			{
-				pthread_create(&SM,NULL,maquinaEstado,(void*)NULL);
-				state=2;
-			}
-			break;
-		case 2:
-			if (!lerSensorTapete(AT1,PSENSOR))
-			{
-				state=1;
-			}
-			break;
-		}
-	}
-        	
-	return -1;
+    }
+
+    return -1;
 }

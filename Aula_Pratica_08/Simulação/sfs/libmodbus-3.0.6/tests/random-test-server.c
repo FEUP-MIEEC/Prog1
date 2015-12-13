@@ -22,8 +22,7 @@
 
 #include <modbus.h>
 
-int main(void)
-{
+int main(void) {
     int socket;
     modbus_t *ctx;
     modbus_mapping_t *mb_mapping;
@@ -42,7 +41,7 @@ int main(void)
     socket = modbus_tcp_listen(ctx, 1);
     modbus_tcp_accept(ctx, &socket);
 
-    for (;;) {
+    for (; ;) {
         uint8_t query[MODBUS_TCP_MAX_ADU_LENGTH];
         int rc;
 

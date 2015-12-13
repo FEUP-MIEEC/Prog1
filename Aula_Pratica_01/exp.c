@@ -6,12 +6,12 @@
 #include <stdio.h>
 
 int main() {
-	int den, r;
+    int den, r;
 
-	den = 0;
-	r = 10 % den;
+    den = 0;
+    r = 10 % den;
 
-	printf("%d\n", r);
+    printf("%d\n", r);
 
-	return 0;
+    return 0;
 }
