@@ -7,12 +7,14 @@
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_10/Problema_1.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_10/Problema_4.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_10/Problema_3.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_09/Problema_4.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_09/Problema_2.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_09/Problema_5b.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_09/Problema_3.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_09/Problema_1.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_09/Problema_5a.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Extras/Formula_Resolvente.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Extras/Mini-teste_exemplo/Problema_2_2.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Extras/Mini-teste_exemplo/Problema_2_1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Extras/Mini-teste_exemplo/Problema_1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Extras/Mini-teste1/Exercicio_1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Extras/Mini-teste1/Exercicio_2_2.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Extras/Mini-teste1/Exercicio_2_1.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_08/Problema_2.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_08/Problema_1.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_08/Problema_4.c" isTestSource="false" />
@@ -64,14 +66,24 @@
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_02/Problema_6.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_01/exp.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_01/input.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Extras/Formula_Resolvente.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Extras/Mini-teste_exemplo/Problema_2_2.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Extras/Mini-teste_exemplo/Problema_1.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Extras/Mini-teste_exemplo/Problema_2_1.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Extras/Mini-teste1/Exercicio_1.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Extras/Mini-teste1/Exercicio_2_2.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Extras/Mini-teste1/Exercicio_2_1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_09/Problema_4.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_09/Problema_2.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_09/Problema_5b.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_09/Problema_3.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_09/Problema_1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_09/Problema_5a.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_11/Problema_4.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_11/Problema_2.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_11/Problema_12.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_11/Problema_10.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_11/Problema_9.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_11/Problema_7.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_11/Problema_5.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_11/Problema_3.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_11/Problema_1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_11/Problema_11.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_11/Problema_8.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_11/Problema_6.c" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
