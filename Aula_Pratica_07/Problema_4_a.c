@@ -57,7 +57,7 @@ int main() {
                 //Multiplicação
                 generator(&x1, &x2);
                 attempt = 0;
-                wrong = 1; // <- 1 , Apenas para iniciar o ciclo While. //TODO: Ponderar o uso do Do...While
+                wrong = 1; // <- 1 , Apenas para iniciar o ciclo While.
                 while (wrong) {
                     printf("Quanto e' %d vezes %d: ", x1, x2);
                     scanf("%d", &r_input);
