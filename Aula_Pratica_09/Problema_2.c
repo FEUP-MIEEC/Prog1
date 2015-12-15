@@ -45,7 +45,7 @@ int main() {
         scanf("%d", &x);
         v[j] = x;
     }
-    printf("Atingiu o limite. No máximo apenas pode inserir 20 valores.\n");
+    printf("Fim da insersão de números\n");
 
     printf("Numero a pesquisar: ");
     scanf("%d", &num);
