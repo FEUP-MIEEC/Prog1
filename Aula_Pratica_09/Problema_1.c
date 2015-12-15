@@ -18,10 +18,11 @@ void histograma(int prt[6]) - sized array
 
 */
 {
-    for (int i = 0; i < 6; ++i) {
+    int i, j;
+    for (i = 0; i < 6; ++i) {
         printf("\n%d - ", i + 1);
 
-        for (int j = 0; j < prt[i]; ++j) {
+        for (j = 0; j < prt[i]; ++j) {
             printf("*");
         }
     }
@@ -30,15 +31,13 @@ void histograma(int prt[6]) - sized array
 }
 
 int main() {
-    int v[6] = {0}; /*Inicializa vetor com '0' em todos os indices*/
+    int v[6] = {0}, i; /*Inicializa vetor com '0' em todos os indices*/
 
     /* initialize random seed: */
     srand(time(NULL));
 
-    for (int i = 0; i < 30; ++i) {
-        int face = rand() % 6 + 1;
-
-        v[face - 1] += 1;
+    for (i = 0; i < 30; ++i) {
+        v[rand() % 6] += 1;
     }
 
     printf("Histograma de 30 lançamentos\n");
