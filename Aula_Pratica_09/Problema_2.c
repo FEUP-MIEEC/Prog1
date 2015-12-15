@@ -34,28 +34,18 @@ int contaRepeticao(int v[], int tamanhoVetor, int numero) {
 
 int main() {
 
-    int v[20], j = 0, count = 1, num;
+    int v[20], j, count = 1, num, x = 0;
     /*
     Ao declarar um vetor, é necessário definir o tamanho do mesmo (número de elementos)
     Optou-se por usar o valor 20, mas poderia ser outro qualquer
     */
 
-    while (1) {
-        int x;
+    for (j = 0; j < 20 && x > 0; j++) {
         printf("Introduza um numero: ");
         scanf("%d", &x);
-        if (j == 20) {
-            printf("Atingiu o limite. No máximo apenas pode inserir 20 valores.\n");
-            break;
-        }
-
-        if (x < 0) {
-            break;
-        }
-
         v[j] = x;
-        j++;
     }
+    printf("Atingiu o limite. No máximo apenas pode inserir 20 valores.\n");
 
     printf("Numero a pesquisar: ");
     scanf("%d", &num);
