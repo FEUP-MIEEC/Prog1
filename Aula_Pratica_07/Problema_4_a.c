@@ -12,7 +12,7 @@ void generator(int *x1, int *x2) {
 }
 
 int main() {
-    int r_ans, r_input, r_corretas, x1 = 0, x2 = 0, wrong = 0, opr = 0, attempt = 0;
+    int r_ans, r_input, r_corretas = 0, x1 = 0, x2 = 0, wrong = 1, opr = 0, attempt = 0;
     /*
     *r_ans : variável que guarda a resposta correta
     *r_inout : resposta introduzida pelo utilizador
@@ -24,8 +24,6 @@ int main() {
     *opr : define o tipo de operação, adição (=1) ou multiplicação (=2). APENAS TOMA O VALOR 1 E 2
     *attempt :
     */
-
-    //TODO: Problemas com a função rand() [oh wait... programação C...]
     while (1) {
         opr = rand() % 2 + 1;
         switch (opr) {
@@ -33,8 +31,7 @@ int main() {
                 //Adição
                 generator(&x1, &x2);
                 attempt = 0;
-                wrong = 1; // <- 1 , Apenas para iniciar o ciclo While. //TODO: Ponderar o uso do Do...While
-                while (wrong) {
+                do {
                     printf("Quanto e' %d mais %d: ", x1, x2);
                     scanf("%d", &r_input);
 
@@ -54,7 +51,7 @@ int main() {
                         attempt = 1; //Falhou a primeira tentativa, já não interessa para a contagem
                         printf("Esta errado, tenta outra vez!\n");
                     }
-                }
+                } while (wrong);
 
             case 2:
                 //Multiplicação
@@ -81,7 +78,8 @@ int main() {
                         printf("Esta errado, tenta outra vez!\n");
                     }
                 }
-
+            default:
+                break;
 
         }
     }
