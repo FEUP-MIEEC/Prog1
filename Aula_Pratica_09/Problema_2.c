@@ -5,9 +5,9 @@
 #include <stdio.h>
 
 int contaRepeticao(int v[], int tamanhoVetor, int numero) {
-    int seq_maior = 0;
+    int seq_maior = 0, i;
 
-    for (int i = 0; i < tamanhoVetor; ++i) {
+    for (i = 0; i < tamanhoVetor; ++i) {
         int seq_atual = 0;
 
         if (v[i] == numero) {
@@ -40,7 +40,7 @@ int main() {
     Optou-se por usar o valor 20, mas poderia ser outro qualquer
     */
 
-    for (j = 0; j < 20 && x > 0; j++) {
+    for (j = 0; (j < 20) && (x >= 0); j++) {
         printf("Introduza um numero: ");
         scanf("%d", &x);
         v[j] = x;
