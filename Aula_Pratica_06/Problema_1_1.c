@@ -5,12 +5,16 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 int dado() {
     return rand() % 6 + 1;
 }
 
 int main() {
+	time_t t;
+    srand((unsigned) time(&t));
+
     int n, count = 0, i, rt;
     printf("Quantos lançamentos? ");
     scanf("%d", &n);
