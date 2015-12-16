@@ -1,27 +1,35 @@
 /*
- *  Created on: 28/10/2015
- *      Author: Gonçalo Pereira
+ *  Created on: 16/12/2015
+ *      Author: Fábio Gaspar
  */
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
+    float h;
 
-    int n, a, b, c;
+    printf("Qual a altura da pessoa? ");
+    scanf("%f", &h);
 
-    printf("Insira um número de três digitos\n");
-
-    scanf("%d", &n);
-
-    a = n % 100;
-    c = n % 10;
-
-
-    if (a == c) {
-        printf("O número é capicua\n");
-    } else {
-        printf("O número não é capicua\n");
+    if (h < 1.3)
+    {
+        printf("Essa pessoa e' baixíssima.\n");
     }
-
+    else if (h >= 1.3 && h < 1.6)
+    {
+        printf("Essa pessoa e' baixa.\n");
+    }
+    else if (h >= 1.6 && h < 1.75)
+    {
+        printf("Essa pessoa e' mediana.\n");
+    }
+    else if (h >= 1.75 && h < 1.9)
+    {
+        printf("Essa pessoa e' alta.\n");
+    }
+    else if (h >= 1.9)
+    {
+        printf("Essa pessoa e' altissima.\n");
+    }
 }
-
