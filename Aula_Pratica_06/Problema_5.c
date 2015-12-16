@@ -7,13 +7,13 @@
 
 void draw(int l, int c, char ch) {
 
-    // Desenhar a primeira linha
+    /* Desenhar a primeira linha */
     int i, j;
     for (i = 0; i < c; i++) {
         printf("%c", ch);
     }
-    printf("\n"); // Mudar de linha
-    // Desenhar as linhas intermédias
+    printf("\n"); /* Mudar de linha */
+    /* Desenhar as linhas intermédias */
 
     for (i = 0; i < l - 2; i++) {
         for (j = 0; j < c; j++) {
@@ -29,14 +29,14 @@ void draw(int l, int c, char ch) {
                 printf("_");
             }
         }
-        printf("\n"); // Mudar de linha
+        printf("\n"); /* Mudar de linha */
     }
 
-    // Desenha a última linha
+    /* Desenha a última linha */
     for (i = 0; i < c; i++) {
         printf("%c", ch);
     }
-    printf("\n"); // Mudar de linha
+    printf("\n"); /* Mudar de linha */
 }
 
 int main() {
