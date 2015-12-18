@@ -15,13 +15,8 @@ int main()
 
 	while(1){
 		printf("Palavra: ");
-		scanf("%s", str);
-		if ((int)str[0]==4) break;
-
-		/*
-		Explicação:
-		Comandos como Ctrl-D são denominados como EOT (End of Transmission) que têm um valor específico na tabela de ASCII, o '4'
-		*/
+	
+		if (scanf("%s", str)==-1) break;
 
 		if (capicua(str)==1) printf("Resultado: '%s' e' capicua\n", str);
 		else printf("Resultado: '%s' NAO e' capicua\n", str);		
