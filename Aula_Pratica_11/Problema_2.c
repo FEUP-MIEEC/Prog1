@@ -1,42 +1,32 @@
-/*
- *  Created on: 17/12/2015
- *      Author: Fábio Gaspar
- */
- 
 #include <stdio.h>
 #include <string.h>
-#define MAX 100
+
+#define M 100
 
 int capicua(char * str);
 
-int main()
-{
-	char str[MAX];
+int main() {
 
-	while(1){
-		printf("Palavra: ");
-	
-		if (scanf("%s", str)==-1) break;
+	char in[M];
+	printf("Palavra?");
+	fgets(in, M, stdin);
 
-		if (capicua(str)==1) printf("Resultado: '%s' e' capicua\n", str);
-		else printf("Resultado: '%s' NAO e' capicua\n", str);		
+	in[strlen(in) - 1] = '\0';
+	if (capicua(in)) {
+		printf("Resultado: %s e capicua", in);
 	}
-
-	
+	else {
+		printf("Resultado: %s nao e capicua", in);
+	}
 }
 
-int capicua(char * str)
-{
-	int j = strlen(str) - 1, flag = 1;
-
-	for (int i = 0; i < j; ++i)
-	{
-		if (str[i]!=str[j-i])
-		{
-			flag = 0;
-			break;
+int capicua(char *str) {
+	int j = strlen(str) - 1, i;
+	for (i = 0; str[i] == str[j]; i++) {
+		if (j == i) {
+			return 1;
 		}
+		j--;
 	}
-
-	return flag;
+	return 0;
 }
