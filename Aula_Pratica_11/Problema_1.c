@@ -6,13 +6,10 @@
 void inverte(char *strOriginal, char *strInvertida);
 
 int main() {
-    int i;
     char f[M], inf[M];
     fgets(f, M, stdin);
     inverte(f, inf);
-    for (i = 0; i < strlen(f); ++i) {
-        printf("%c", inf[i]);
-    }
+    printf("%s", inf);
     return 0;
 }
 
