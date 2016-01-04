@@ -1,3 +1,6 @@
+/*
+ *      Author: Fábio Gaspar
+ */
 #ifndef _POLI_H
 #define _POLI_H
 
