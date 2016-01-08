@@ -12,7 +12,7 @@ int main() {
     srand((unsigned) time(&t));
 
     int n, count = 0, i, rt;
-    
+
     printf("Quantos lançamentos? ");
     scanf("%d", &n);
     for (i = 1; i <= n; i++) {

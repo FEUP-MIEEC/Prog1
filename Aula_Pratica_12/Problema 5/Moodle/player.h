@@ -1,9 +1,9 @@
 typedef struct {
-	char nome [50];
-	int pontos;
+    char nome[50];
+    int pontos;
 } jogador;
 
-jogador criaJogador(char* nome);
+jogador criaJogador(char *nome);
 
 void imprimeJogador(jogador j);
 

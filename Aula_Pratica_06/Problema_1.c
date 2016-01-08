@@ -12,7 +12,7 @@ int dado() {
 }
 
 int main() {
-	time_t t;
+    time_t t;
     srand((unsigned) time(&t));
 
     int n, count = 0, i, rt;

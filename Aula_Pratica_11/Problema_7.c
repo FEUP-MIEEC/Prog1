@@ -2,58 +2,54 @@
  *  Created on: 18/12/2015
  *      Author: Fábio Gaspar
  */
- 
- #include <stdio.h>
- #include <string.h>
 
- void desloca(char *texto, char* cifra, int shift);
- char converte(char c, int shift);
+#include <stdio.h>
+#include <string.h>
 
- int main()
- {
- 	char str[100], cifra[100]={0};
- 	int shift;
- 	
- 	printf("texto? ");
- 	fgets(str, 100, stdin);
+void desloca(char *texto, char *cifra, int shift);
 
- 	printf("shift? ");
- 	scanf("%d", &shift);
+char converte(char c, int shift);
 
- 	/* Remove '\n' substituindo-o por '\0' */
+int main() {
+    char str[100], cifra[100] = {0};
+    int shift;
 
- 	str[strlen(str) - 1] = '\0';
+    printf("texto? ");
+    fgets(str, 100, stdin);
 
- 	desloca(str, cifra, shift);
+    printf("shift? ");
+    scanf("%d", &shift);
 
- 	printf("cifra: %s", cifra);
+    /* Remove '\n' substituindo-o por '\0' */
 
- }
+    str[strlen(str) - 1] = '\0';
 
- void desloca(char *texto, char* cifra, int shift)
- {
+    desloca(str, cifra, shift);
 
- 	for (int i = 0; i < strlen(texto); ++i)
- 	{
- 		cifra[i] = converte(texto[i], shift);
- 	}
+    printf("cifra: %s", cifra);
 
- }
+}
 
- char converte(char c, int shift){
+void desloca(char *texto, char *cifra, int shift) {
 
-	int ascii = (int)c, encrypt;
-	if (ascii >= 97 && ascii <= 122)
-	{
-		encrypt = (ascii + shift - 97) % 26; 
+    for (int i = 0; i < strlen(texto); ++i) {
+        cifra[i] = converte(texto[i], shift);
+    }
 
-		if (encrypt < 0)
-		{
-			return 123 + encrypt;
-		}
-		else	return encrypt + 97;
-	}
+}
 
-	else return c;
+char converte(char c, int shift) {
+
+    int ascii = (int) c, encrypt;
+    if (ascii >= 97 && ascii <= 122) {
+        encrypt = (ascii + shift - 97) % 26;
+
+        if (encrypt < 0) {
+            return 123 + encrypt;
+        }
+        else return encrypt + 97;
+    }
+
+    else return c;
 
 }

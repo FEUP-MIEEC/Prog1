@@ -10,16 +10,16 @@ typedef struct {
 } carta;
 
 
-void criaBaralho(carta * baralho);
+void criaBaralho(carta *baralho);
 
-void shuffle(carta* baralho);
+void shuffle(carta *baralho);
 
-carta escolheCarta(carta * baralho);
+carta escolheCarta(carta *baralho);
 
 int comparaCarta(carta c1, carta c2);
 
 void imprimeCarta(jogador j, carta c);
 
-void imprimeBaralho(carta* baralho);
+void imprimeBaralho(carta *baralho);
 
 

@@ -7,27 +7,25 @@
 
 char converte(char c, int shift);
 
-int main()
-{
-	char c;
-	int shift;
-	printf("carater e shift?: ");
-	scanf("%c %d", &c, &shift);
+int main() {
+    char c;
+    int shift;
+    printf("carater e shift?: ");
+    scanf("%c %d", &c, &shift);
 
-	printf("resultado: %c", converte(c, shift));
+    printf("resultado: %c", converte(c, shift));
 }
 
-char converte(char c, int shift){
+char converte(char c, int shift) {
 
-	int ascii = (int)c, encrypt;
+    int ascii = (int) c, encrypt;
 
-	encrypt = (ascii + shift - 97) % 26; 
+    encrypt = (ascii + shift - 97) % 26;
 
-	if (encrypt < 0)
-	{
-		return 123 + encrypt;
-	}
-	else	return encrypt + 97;
+    if (encrypt < 0) {
+        return 123 + encrypt;
+    }
+    else return encrypt + 97;
 
 
 }

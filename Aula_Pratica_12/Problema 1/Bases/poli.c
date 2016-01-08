@@ -5,22 +5,18 @@
 #include "poli.h" 
 
 
-int lerPoli(int * poli)
-{
+int lerPoli(int *poli) {
 //TODO
 }
 
-void escrevePoli(int * poli, int grau)
-{
+void escrevePoli(int *poli, int grau) {
 //TODO
 }
 
-void adicionaPoli(int * p1, int * p2, int *pRes, int maiorGrau)
-{
+void adicionaPoli(int *p1, int *p2, int *pRes, int maiorGrau) {
 //TODO
 }
 
-float calc(int * poli, int grau, float x)
-{
+float calc(int *poli, int grau, float x) {
 //TODO
 }

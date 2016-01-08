@@ -5,7 +5,7 @@
 #define _COMPLEXOS_H
 
 typedef struct {
-	int real, img;
+    int real, img;
 } complexo;
 
 complexo leComplexo();
