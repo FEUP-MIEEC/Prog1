@@ -1,0 +1,75 @@
+﻿/*
+ *      Author: Fábio Gaspar
+ */
+
+Algumas dicas (exemplo para Problema 1)
+
+Para este programa temos essencialmente três ficheiros:
+- um cabeçalho, que contém o protótipo ou declaração das funções [poli.h]
+/*======================= poli.h ===============*/
+/*================== Cabeçalho ou header ========*/
+#ifndef _H_TESTE
+#define _H_TESTE
+/* Funções */
+void Exemplo(int param1);
+#endif
+
+- um ficheiro que está ligado ao cabeçalho, e onde serão desenvolvidas/implementadas todas (ou grande parte) das funções [poli.c]
+/*================ poli.c ======================*/ 
+#include "poli.h" /*Importar o cabeçalho (?)*/
+#include ...
+void Exemplo(int param1){
+  printf("Número: %d", param1);
+}
+
+- o ficheiro correspondente o programa (principal) [problema1.c]
+/*====================== problema1.c =================*/
+#include ...
+#include "teste.h" /*Importar o cabeçalho*/
+/* Função Main */
+int main(void){
+Exemplo();
+return (0);
+}
+
+(A) Como compilar?
+ 	i) clang [file: source] [file: programa] -o [nome]
+ 
+	Sendo mais específico, o primeiro parâmetro deverá ser o ficheiro que implementa as funções da biblioteca.
+	O segundo parâmetro, é o ficheiro do programa principal (que contém a função main[] e invoca as funções da biblioteca etc)
+	O último parâmetro, é um nome arbitrário, que será o nome do ficheiro executável
+
+	exemplo: clang problema1.c poli.c -o exemplo
+
+ii) Makefile
+Serve para definir instruções para a compilação de projetos de software. Estas devem ser guardadas num ficheiro 'Makefile' ou 'makefile'
+Nota: Alguns compiladores apenas reconhecem 'Makefile'
+Além de ser usado para a compilação e ligação/linking de ficheiros, também é possível realizar comandos e remover ficheiros temporários resultantes da ação do compilador.
+
+/*====================== Start - Makefile =================*/
+all: poli.o prob1.c
+	clang prob1.c poli.o -o programa #Nota: <tab> clang ...
+
+datas.o: poli.c poli.h
+	clang -c poli.c #Nota: <tab> (instrução)
+
+clean:
+	rm *.o programa *~ #Nota: <tab> rm ...
+/*====================== End - Makefile =================*/
+
+/*====================== Estrutura - Makefile =================*/
+regra: dependências
+<tab> comando
+<tab> comando
+...
+/*====================== Estrutura - Makefile =================*/
+
+-> all: nome das regras a serem executadas
+-> datas.o ...
+-> clean: apaga arquivos temporários
+
+(B) Como executar?
+Até agora, sempre que compilavamos um ficheiro '.c', é gerado um ficheiro executável 'a.out', e como tal, para executar o mesmo, no terminal usavamos o comando './a.out'
+Neste caso, tendo o executável um nome diferente, o programa é executado usando o comando './exemplo'
+No caso do uso do Makefile, o comando é mais simples
+/*TODO*/
