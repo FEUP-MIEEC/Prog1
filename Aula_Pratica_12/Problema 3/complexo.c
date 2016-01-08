@@ -7,13 +7,14 @@
 
 complexo leComplexo()
 {
-	scanf("%d %d", complexo.real, complexo.img);
-	return complexo;
+	complexo c;
+	scanf("%d %d", &c.real, &c.img);
+	return c;
 }
 
 void escreveComplexo(complexo c)
 {
-	printf("%d + i%d", c.real, c.img);
+	printf("%d + %di", c.real, c.img);
 }
 
 complexo somaComplexo(complexo c1, complexo c2)
@@ -33,7 +34,7 @@ double modComplexo(complexo c)
 	|z|= sqrt(x² + y²)
 	*/
 
-	return sqrt(pow(x,2)+pow(y,2));
+	return sqrt(pow(c.real,2)+pow(c.img,2));
 }
 
 double argComplexo(complexo c)
