@@ -16,7 +16,7 @@ void Exemplo(int param1);
 
 - um ficheiro que está ligado ao cabeçalho, e onde serão desenvolvidas/implementadas todas (ou grande parte) das funções [poli.c]
 /*================ poli.c ======================*/ 
-#include "poli.h" /*Importar o cabeçalho (?)*/
+#include "poli.h" /*Importar o cabeçalho*/
 #include ...
 void Exemplo(int param1){
   printf("Número: %d", param1);
