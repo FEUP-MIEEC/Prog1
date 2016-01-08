@@ -84,6 +84,7 @@ add_executable(Aula11-Problema9 Aula_Pratica_11/Problema_9.c)
 add_executable(Aula11-Problema10 Aula_Pratica_11/Problema_10.c)
 add_executable(Aula11-Problema11 Aula_Pratica_11/Problema_11.c)
 add_executable(Aula11-Problema12 Aula_Pratica_11/Problema_12.c)
+add_executable(Aula12-Problema1 Aula_Pratica_12/Problema_1/Problema_1.c Aula_Pratica_12/Problema_1/poli.c Aula_Pratica_12/Problema_1/poli.h)
+add_executable(Aula12-Problema2 Aula_Pratica_12/Problema_2/Problema_2.c Aula_Pratica_12/Problema_2/datas.c Aula_Pratica_12/Problema_2/datas.h)
+add_executable(Aula12-Problema3 Aula_Pratica_12/Problema_3/Problema_3.c Aula_Pratica_12/Problema_3/complexo.c Aula_Pratica_12/Problema_3/complexo.h)
 add_executable(Aula12-Problema5 Aula_Pratica_12/Problema_5/game.c Aula_Pratica_12/Problema_5/cards.c Aula_Pratica_12/Problema_5/cards.h Aula_Pratica_12/Problema_5/player.c Aula_Pratica_12/Problema_5/player.h)
-
-

@@ -26,7 +26,8 @@ int lerPoli(int *poli) {
 }
 
 void escrevePoli(int *poli, int grau) {
-    for (int i = grau; i >= 0; --i) {
+    int i;
+    for (i = grau; i >= 0; --i) {
         if (poli[i] != 0 && i == grau) /*primeiro elemento p(x) = x⁶ ...*/
         {
             printf("%dx^(%d)", poli[i], i);
@@ -51,14 +52,16 @@ void escrevePoli(int *poli, int grau) {
 }
 
 void adicionaPoli(int *p1, int *p2, int *pRes, int maiorGrau) {
-    for (int i = 0; i <= maiorGrau; ++i) {
+    int i;
+    for (i = 0; i <= maiorGrau; ++i) {
         pRes[i] = p1[i] + p2[i];
     }
 }
 
 float calc(int *poli, int grau, float x) {
+    int i;
     float total = 0;
-    for (int i = 0; i <= grau; ++i) {
+    for (i = 0; i <= grau; ++i) {
         total += poli[i] * pow(x, i);
     }
 

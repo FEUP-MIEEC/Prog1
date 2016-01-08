@@ -6,8 +6,9 @@
 #include "complexo.h"
 
 complexo leComplexo() {
-    scanf("%d %d", complexo.real, complexo.img);
-    return complexo;
+    complexo c;
+    scanf("%d %d", &c.real, &c.img);
+    return c;
 }
 
 void escreveComplexo(complexo c) {
@@ -29,7 +30,7 @@ double modComplexo(complexo c) {
     |z|= sqrt(x² + y²)
     */
 
-    return sqrt(pow(x, 2) + pow(y, 2));
+    return sqrt(pow(c.real, 2) + pow(c.img, 2));
 }
 
 double argComplexo(complexo c) {

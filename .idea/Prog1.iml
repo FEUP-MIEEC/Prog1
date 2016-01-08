@@ -66,11 +66,20 @@
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_02/Problema_6.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_01/exp.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_01/input.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_2/datas.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_2/datas.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_2/Problema_2.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_1/poli.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_1/Problema_1.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_1/poli.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_5/game.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_5/player.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_5/cards.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_5/cards.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_5/player.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_5/player.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_3/complexo.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_3/complexo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_3/Problema_3.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_11/Problema_4.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_11/Problema_2.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_11/Problema_12.c" isTestSource="false" />
