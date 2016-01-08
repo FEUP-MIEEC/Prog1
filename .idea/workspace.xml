@@ -134,36 +134,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f84232f6-4cdb-4421-b112-e29dcf4ec80d" name="Default" comment="Code Reformat">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_03/Problema_3.c" afterPath="$PROJECT_DIR$/Aula_Pratica_03/Problema_3.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_04/Problema_7.c" afterPath="$PROJECT_DIR$/Aula_Pratica_04/Problema_7.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_05/Problema_3.c" afterPath="$PROJECT_DIR$/Aula_Pratica_05/Problema_3.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_06/Problema_1.c" afterPath="$PROJECT_DIR$/Aula_Pratica_06/Problema_1.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_11/Problema_10.c" afterPath="$PROJECT_DIR$/Aula_Pratica_11/Problema_10.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_11/Problema_2.c" afterPath="$PROJECT_DIR$/Aula_Pratica_11/Problema_2.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_11/Problema_4.c" afterPath="$PROJECT_DIR$/Aula_Pratica_11/Problema_4.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_11/Problema_6.c" afterPath="$PROJECT_DIR$/Aula_Pratica_11/Problema_6.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_11/Problema_7.c" afterPath="$PROJECT_DIR$/Aula_Pratica_11/Problema_7.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_11/Problema_8.c" afterPath="$PROJECT_DIR$/Aula_Pratica_11/Problema_8.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_11/Problema_9.c" afterPath="$PROJECT_DIR$/Aula_Pratica_11/Problema_9.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_12/Problema 1/Bases/Modelo_Problema_1.c" afterPath="$PROJECT_DIR$/Aula_Pratica_12/Problema 1/Bases/Modelo_Problema_1.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_12/Problema 1/Bases/poli.c" afterPath="$PROJECT_DIR$/Aula_Pratica_12/Problema 1/Bases/poli.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_12/Problema 1/Bases/poli.h" afterPath="$PROJECT_DIR$/Aula_Pratica_12/Problema 1/Bases/poli.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_12/Problema 1/Resolução/Problema 1.c" afterPath="$PROJECT_DIR$/Aula_Pratica_12/Problema 1/Resolução/Problema 1.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_12/Problema 1/Resolução/poli.c" afterPath="$PROJECT_DIR$/Aula_Pratica_12/Problema 1/Resolução/poli.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_12/Problema 1/Resolução/poli.h" afterPath="$PROJECT_DIR$/Aula_Pratica_12/Problema 1/Resolução/poli.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_12/Problema 2/Moodle/datas.c" afterPath="$PROJECT_DIR$/Aula_Pratica_12/Problema 2/Moodle/datas.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_12/Problema 2/Moodle/datas.h" afterPath="$PROJECT_DIR$/Aula_Pratica_12/Problema 2/Moodle/datas.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_12/Problema 2/Moodle/programa.c" afterPath="$PROJECT_DIR$/Aula_Pratica_12/Problema 2/Moodle/programa.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_12/Problema 2/Resolução/datas.c" afterPath="$PROJECT_DIR$/Aula_Pratica_12/Problema 2/Resolução/datas.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_12/Problema 2/Resolução/datas.h" afterPath="$PROJECT_DIR$/Aula_Pratica_12/Problema 2/Resolução/datas.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_12/Problema 2/Resolução/programa.c" afterPath="$PROJECT_DIR$/Aula_Pratica_12/Problema 2/Resolução/programa.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_12/Problema 3/complexo.c" afterPath="$PROJECT_DIR$/Aula_Pratica_12/Problema 3/complexo.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_12/Problema 3/complexo.h" afterPath="$PROJECT_DIR$/Aula_Pratica_12/Problema 3/complexo.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_12/Problema 5/Moodle/cards.c" afterPath="$PROJECT_DIR$/Aula_Pratica_12/Problema 5/Moodle/cards.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_12/Problema 5/Moodle/cards.h" afterPath="$PROJECT_DIR$/Aula_Pratica_12/Problema 5/Moodle/cards.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_12/Problema 5/Moodle/game.c" afterPath="$PROJECT_DIR$/Aula_Pratica_12/Problema 5/Moodle/game.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_12/Problema 5/Moodle/player.c" afterPath="$PROJECT_DIR$/Aula_Pratica_12/Problema 5/Moodle/player.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_12/Problema 5/Moodle/player.h" afterPath="$PROJECT_DIR$/Aula_Pratica_12/Problema 5/Moodle/player.h" />
     </list>
     <ignored path="Prog1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -184,14 +154,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="game.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="game.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aula_Pratica_12/Problema 5/Moodle/game.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39253998">
+            <state vertical-scroll-proportion="0.0">
               <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="programa.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Aula_Pratica_12/Problema 3/programa.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.03374233">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -224,8 +204,8 @@
         <option value="$PROJECT_DIR$/Aula_Pratica_11/Problema_5.c" />
         <option value="$PROJECT_DIR$/Aula_Pratica_11/Problema_1.c" />
         <option value="$PROJECT_DIR$/Aula_Pratica_12/Problema 5/Moodle/cards.c" />
-        <option value="$PROJECT_DIR$/Aula_Pratica_12/Problema 5/Moodle/game.c" />
         <option value="$PROJECT_DIR$/Aula_Pratica_11/Problema_9.c" />
+        <option value="$PROJECT_DIR$/Aula_Pratica_12/Problema 5/Moodle/game.c" />
       </list>
     </option>
   </component>
@@ -332,6 +312,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Moodle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Prog1" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Prog1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Aula_Pratica_11" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1010,7 +1004,13 @@
       <option name="project" value="LOCAL" />
       <updated>1450449320331</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Code Reformat">
+      <created>1452261823546</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1452261823546</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1026,25 +1026,25 @@
     <frame x="-8" y="0" width="1105" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23584905" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.49624062" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3204105" sideWeight="0.49194413" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3204105" sideWeight="0.49194413" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3243243" sideWeight="0.49624062" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32807216" sideWeight="0.506075" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972324" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39794755" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21892816" sideWeight="0.49624062" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21892816" sideWeight="0.49624062" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3201804" sideWeight="0.49392498" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.49624062" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23584905" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972324" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990981" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3201804" sideWeight="0.49392498" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990981" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1097,13 +1097,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Aula_Pratica_10/Problema_1.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Aula_Pratica_10/Problema_2.c">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1469,11 +1462,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Aula_Pratica_12/Problema 5/Moodle/game.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39253998">
+        <state vertical-scroll-proportion="0.0">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aula_Pratica_12/Problema 3/programa.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03374233">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
