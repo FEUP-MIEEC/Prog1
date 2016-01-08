@@ -1,4 +1,4 @@
-﻿/*
+/*
  *      Author: Fábio Gaspar
  */
 
