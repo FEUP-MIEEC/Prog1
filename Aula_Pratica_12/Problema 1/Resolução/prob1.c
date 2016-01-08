@@ -1,3 +1,0 @@
-/*
- *      Author: Fábio Gaspar
- */
