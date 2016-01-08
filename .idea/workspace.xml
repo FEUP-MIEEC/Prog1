@@ -134,11 +134,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f84232f6-4cdb-4421-b112-e29dcf4ec80d" name="Default" comment="P12.5">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Aula_Pratica_12/Problema_5/cards.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Aula_Pratica_12/Problema_5/cards.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Aula_Pratica_12/Problema_5/game.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Aula_Pratica_12/Problema_5/player.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Aula_Pratica_12/Problema_5/player.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Prog1.iws" />
@@ -309,24 +304,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Aula_Pratica_12" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prog1" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prog1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Aula_Pratica_12" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Problema_5" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -673,6 +650,10 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="Aula12-Problema5" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula12-Problema5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula12-Problema5">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="MTEX1_Exercicio1" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="MTEX1_Exercicio1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="MTEX1_Exercicio1">
       <envs />
       <method />
@@ -698,10 +679,6 @@
       <method />
     </configuration>
     <configuration default="false" name="Extras-Formula_Resolvente" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Extras-Formula_Resolvente" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Extras-Formula_Resolvente">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Aula12-Problema5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula12-Problema5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Prog1" RUN_TARGET_NAME="Aula12-Problema5">
       <envs />
       <method />
     </configuration>
@@ -780,14 +757,14 @@
       <item index="71" class="java.lang.String" itemvalue="Application.Aula11-Problema10" />
       <item index="72" class="java.lang.String" itemvalue="Application.Aula11-Problema11" />
       <item index="73" class="java.lang.String" itemvalue="Application.Aula11-Problema12" />
-      <item index="74" class="java.lang.String" itemvalue="Application.MTEX1_Exercicio1" />
-      <item index="75" class="java.lang.String" itemvalue="Application.MTEX1_Exercicio2_1" />
-      <item index="76" class="java.lang.String" itemvalue="Application.MTEX1_Exercicio2_2" />
-      <item index="77" class="java.lang.String" itemvalue="Application.MT1_Exercicio1" />
-      <item index="78" class="java.lang.String" itemvalue="Application.MT1_Exercicio2_1" />
-      <item index="79" class="java.lang.String" itemvalue="Application.MT1_Exercicio2_2" />
-      <item index="80" class="java.lang.String" itemvalue="Application.Extras-Formula_Resolvente" />
-      <item index="81" class="java.lang.String" itemvalue="Application.Aula12-Problema5" />
+      <item index="74" class="java.lang.String" itemvalue="Application.Aula12-Problema5" />
+      <item index="75" class="java.lang.String" itemvalue="Application.MTEX1_Exercicio1" />
+      <item index="76" class="java.lang.String" itemvalue="Application.MTEX1_Exercicio2_1" />
+      <item index="77" class="java.lang.String" itemvalue="Application.MTEX1_Exercicio2_2" />
+      <item index="78" class="java.lang.String" itemvalue="Application.MT1_Exercicio1" />
+      <item index="79" class="java.lang.String" itemvalue="Application.MT1_Exercicio2_1" />
+      <item index="80" class="java.lang.String" itemvalue="Application.MT1_Exercicio2_2" />
+      <item index="81" class="java.lang.String" itemvalue="Application.Extras-Formula_Resolvente" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -1035,7 +1012,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452263091306</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="P12.5">
+      <created>1452265827778</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1452265827778</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1049,7 +1032,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.49624062" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3201804" sideWeight="0.49194413" order="9" side_tool="false" content_ui="tabs" />
@@ -1059,7 +1042,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21892816" sideWeight="0.49624062" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.319053" sideWeight="0.49392498" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.49624062" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1320655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1320655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972324" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
