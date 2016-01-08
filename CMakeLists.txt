@@ -84,6 +84,6 @@ add_executable(Aula11-Problema9 Aula_Pratica_11/Problema_9.c)
 add_executable(Aula11-Problema10 Aula_Pratica_11/Problema_10.c)
 add_executable(Aula11-Problema11 Aula_Pratica_11/Problema_11.c)
 add_executable(Aula11-Problema12 Aula_Pratica_11/Problema_12.c)
-add_executable(Aula11-Problema12 Aula_Pratica_12/Problema_5.c)
+add_executable(Aula12-Problema5 Aula_Pratica_12/Problema_5/game.c Aula_Pratica_12/Problema_5/cards.c Aula_Pratica_12/Problema_5/cards.h Aula_Pratica_12/Problema_5/player.c Aula_Pratica_12/Problema_5/player.h)
 
 
