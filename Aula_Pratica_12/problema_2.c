@@ -2,10 +2,9 @@
 #include "datas.h"
 
 int main() {
-
+int daa;
   /* ler data*/
   printf("Introduza uma data (DD MM AAAA): ");
-  int t, m, a;
   data d;
   scanf("%d %d %d", &d.dia, &d.mes, &d.ano);
   
@@ -17,7 +16,7 @@ int main() {
   }
   
   /* ler número de dias a avançar*/
-  int daa;
+  
   printf("Introduza o número de dias a avançar: ");
   scanf("%d", &daa);
 
@@ -25,6 +24,8 @@ int main() {
   data nd=somaDias(d, daa);
   
   /* imprimir data actualizada */
-
-  printf("A data resultante é %d/%d/%d\n", nd.dia, nd.mes, nd.ano);
+  char a[80];
+	escreveData(a, d);
+	
+  printf("A data resultante é ");puts(a);printf("\n");
 }
