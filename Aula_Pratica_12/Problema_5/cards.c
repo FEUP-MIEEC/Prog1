@@ -8,8 +8,8 @@ char naipes[num_naipes] = {'C', 'E', 'O', 'P'};
 
 void criaBaralho(carta *baralho) {
     int i, j, k = 0;
-    for (i = 0; i < 12; ++i) {
-        for (j = 0; j < 3; ++j, k++) {
+    for (i = 0; i < num_cartas; ++i) {
+        for (j = 0; j < num_naipes; ++j, k++) {
             baralho[k].valor = valores[i];
             baralho[k].naipe = naipes[j];
         }
@@ -34,15 +34,9 @@ carta escolheCarta(carta *baralho) {
 }
 
 int comparaCarta(carta c1, carta c2) {
-    if (c1.valor > c2.valor) {
-        return 1;
-    }
-    if (c1.valor == c2.valor) {
-        return 0;
-    }
-    if (c1.valor < c2.valor) {
-        return -1;
-    }
+    if (c1.valor > c2.valor) return 1;
+    if (c1.valor == c2.valor) return 0;
+    if (c1.valor < c2.valor) return -1;
     return 0;
 }
 
