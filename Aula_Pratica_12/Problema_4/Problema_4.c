@@ -4,8 +4,6 @@
 
 #include <stdio.h>
 #include "armazem.h"
-#include <string.h>
-#include <stdlib.h>
 
 int main(){
 	artigo itens[50]={
@@ -60,6 +58,8 @@ int main(){
 				dumpA(itens, nItens);
 				printf("Prima [ENTER] para continuar.");  getchar();
 			break;
+			default:
+				break;
 		 }
 		
 	}
