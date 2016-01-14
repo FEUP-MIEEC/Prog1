@@ -66,6 +66,12 @@
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_02/Problema_6.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_01/exp.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_01/input.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_13/Problema_6/Problema_6.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_13/Problema_5/Problema_5.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_13/Problema_4/Problema_4.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_13/Problema_3/Problema_3.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_13/Problema_2/Problema_2.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_13/Problema_1/Problema_1.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_2/datas.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_2/datas.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_2/Problema_2.c" isTestSource="false" />
@@ -77,9 +83,9 @@
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_5/cards.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_5/player.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_5/player.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_4/armazem.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_4/Problema_4.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_4/armazem.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_4/Problema_4.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_4/armazem.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_3/complexo.c" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_3/complexo.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Aula_Pratica_12/Problema_3/Problema_3.c" isTestSource="false" />
