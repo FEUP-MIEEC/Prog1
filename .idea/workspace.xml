@@ -34,32 +34,33 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
     <generated>
-      <config projectName="Prog1" targetName="Aula6-Problema4" />
       <config projectName="Prog1" targetName="Aula4-Problema6" />
       <config projectName="Prog1" targetName="Aula4-Problema5" />
       <config projectName="Prog1" targetName="Aula4-Problema4" />
       <config projectName="Prog1" targetName="Aula4-Problema3" />
       <config projectName="Prog1" targetName="Aula4-Problema2" />
-      <config projectName="Prog1" targetName="Aula4-Problema1" />
-      <config projectName="Prog1" targetName="MTEX1_Exercicio2_2" />
-      <config projectName="Prog1" targetName="Aula7-Problema2" />
+      <config projectName="Prog1" targetName="Aula10-Problema1_b" />
+      <config projectName="Prog1" targetName="Prog1" />
+      <config projectName="Prog1" targetName="MT1_Exercicio1" />
+      <config projectName="Prog1" targetName="MTEX1_Exercicio2_1" />
       <config projectName="Prog1" targetName="Aula11-Problema8" />
-      <config projectName="Prog1" targetName="Aula7-Problema5" />
+      <config projectName="Prog1" targetName="Aula11-Problema9" />
       <config projectName="Prog1" targetName="Aula12-Problema5" />
       <config projectName="Prog1" targetName="Aula12-Problema4" />
       <config projectName="Prog1" targetName="Aula12-Problema3" />
       <config projectName="Prog1" targetName="Aula12-Problema2" />
       <config projectName="Prog1" targetName="Aula12-Problema1" />
-      <config projectName="Prog1" targetName="Aula5-Problema1_" />
+      <config projectName="Prog1" targetName="Aula5-Problema1_2" />
       <config projectName="Prog1" targetName="Aula5-Problema6" />
       <config projectName="Prog1" targetName="Aula5-Problema5" />
       <config projectName="Prog1" targetName="Aula5-Problema4" />
       <config projectName="Prog1" targetName="Aula5-Problema3" />
       <config projectName="Prog1" targetName="Aula5-Problema2" />
       <config projectName="Prog1" targetName="Aula5-Problema1" />
-      <config projectName="Prog1" targetName="Aula11-Problema7" />
       <config projectName="Prog1" targetName="Aula1-input" />
-      <config projectName="Prog1" targetName="Aula11-Problema1" />
+      <config projectName="Prog1" targetName="Aula5-Problema1_" />
+      <config projectName="Prog1" targetName="Aula10-Problema1_c" />
+      <config projectName="Prog1" targetName="Aula11-Problema6" />
       <config projectName="Prog1" targetName="Aula13-Problema6" />
       <config projectName="Prog1" targetName="Aula13-Problema5" />
       <config projectName="Prog1" targetName="Aula13-Problema4" />
@@ -68,24 +69,24 @@
       <config projectName="Prog1" targetName="Aula13-Problema1" />
       <config projectName="Prog1" targetName="Aula6-Problema7" />
       <config projectName="Prog1" targetName="Aula6-Problema6" />
-      <config projectName="Prog1" targetName="Aula10-Problema1_c" />
-      <config projectName="Prog1" targetName="Aula10-Problema1_b" />
-      <config projectName="Prog1" targetName="MTEX1_Exercicio2_1" />
-      <config projectName="Prog1" targetName="Prog1" />
+      <config projectName="Prog1" targetName="Aula6-Problema5" />
+      <config projectName="Prog1" targetName="Aula6-Problema4" />
+      <config projectName="Prog1" targetName="Aula6-Problema3" />
+      <config projectName="Prog1" targetName="Aula6-Problema2" />
       <config projectName="Prog1" targetName="Aula6-Problema1" />
-      <config projectName="Prog1" targetName="Aula10-Problema2" />
-      <config projectName="Prog1" targetName="Aula11-Problema12" />
+      <config projectName="Prog1" targetName="Aula10-Problema4" />
+      <config projectName="Prog1" targetName="MT1_Exercicio2_1" />
+      <config projectName="Prog1" targetName="Aula4-Problema1" />
       <config projectName="Prog1" targetName="Aula11-Problema11" />
       <config projectName="Prog1" targetName="Aula11-Problema10" />
       <config projectName="Prog1" targetName="Aula7-Problema8" />
       <config projectName="Prog1" targetName="Aula7-Problema6" />
-      <config projectName="Prog1" targetName="MT1_Exercicio1" />
+      <config projectName="Prog1" targetName="Aula7-Problema5" />
       <config projectName="Prog1" targetName="Aula7-Problema4" />
       <config projectName="Prog1" targetName="Aula7-Problema3" />
-      <config projectName="Prog1" targetName="MTEX1_Exercicio1" />
+      <config projectName="Prog1" targetName="Aula7-Problema2" />
       <config projectName="Prog1" targetName="Aula7-Problema1" />
-      <config projectName="Prog1" targetName="Aula7-Problema4_a" />
-      <config projectName="Prog1" targetName="Aula9-Problema1" />
+      <config projectName="Prog1" targetName="Aula5-Problema1_1" />
       <config projectName="Prog1" targetName="Aula6-Problema1_2" />
       <config projectName="Prog1" targetName="Aula6-Problema1_1" />
       <config projectName="Prog1" targetName="Aula2-Problema8" />
@@ -100,9 +101,7 @@
       <config projectName="Prog1" targetName="Aula8-Problema3" />
       <config projectName="Prog1" targetName="Aula8-Problema2" />
       <config projectName="Prog1" targetName="Aula8-Problema1" />
-      <config projectName="Prog1" targetName="Aula6-Problema5" />
-      <config projectName="Prog1" targetName="Aula8-Problema1_2" />
-      <config projectName="Prog1" targetName="Aula10-Problema3" />
+      <config projectName="Prog1" targetName="Aula11-Problema12" />
       <config projectName="Prog1" targetName="Aula9-Problema5b" />
       <config projectName="Prog1" targetName="Aula3-Problema8" />
       <config projectName="Prog1" targetName="Aula3-Problema7" />
@@ -110,31 +109,32 @@
       <config projectName="Prog1" targetName="Aula3-Problema5" />
       <config projectName="Prog1" targetName="Aula3-Problema4" />
       <config projectName="Prog1" targetName="Aula3-Problema3" />
-      <config projectName="Prog1" targetName="Aula5-Problema1_2" />
-      <config projectName="Prog1" targetName="Aula5-Problema1_1" />
+      <config projectName="Prog1" targetName="Aula3-Problema2" />
+      <config projectName="Prog1" targetName="Aula3-Problema1" />
       <config projectName="Prog1" targetName="Extras" />
       <config projectName="Prog1" targetName="Aula9-Problema5" />
       <config projectName="Prog1" targetName="Aula9-Problema3" />
       <config projectName="Prog1" targetName="Aula9-Problema2" />
-      <config projectName="Prog1" targetName="Aula10-Problema4" />
-      <config projectName="Prog1" targetName="Aula3-Problema1" />
+      <config projectName="Prog1" targetName="Aula9-Problema1" />
+      <config projectName="Prog1" targetName="MTEX1_Exercicio2_2" />
       <config projectName="Prog1" targetName="Extras-Formula_Resolvente" />
       <config projectName="Prog1" targetName="Aula10-Problema1" />
       <config projectName="Prog1" targetName="Aula9-Problema5a" />
-      <config projectName="Prog1" targetName="MT1_Exercicio2_1" />
+      <config projectName="Prog1" targetName="MTEX1_Exercicio1" />
       <config projectName="Prog1" targetName="MT1_Exercicio2_2" />
       <config projectName="Prog1" targetName="Aula1-exp" />
       <config projectName="Prog1" targetName="MTEX1_Exercicio2" />
-      <config projectName="Prog1" targetName="Aula11-Problema9" />
+      <config projectName="Prog1" targetName="Aula10-Problema2" />
+      <config projectName="Prog1" targetName="Aula10-Problema3" />
       <config projectName="Prog1" targetName="Aula7-Problema5_a" />
-      <config projectName="Prog1" targetName="Aula3-Problema2" />
-      <config projectName="Prog1" targetName="Aula11-Problema6" />
+      <config projectName="Prog1" targetName="Aula11-Problema7" />
+      <config projectName="Prog1" targetName="Aula7-Problema4_a" />
       <config projectName="Prog1" targetName="Aula11-Problema5" />
       <config projectName="Prog1" targetName="Aula11-Problema4" />
       <config projectName="Prog1" targetName="Aula11-Problema3" />
       <config projectName="Prog1" targetName="Aula11-Problema2" />
-      <config projectName="Prog1" targetName="Aula6-Problema2" />
-      <config projectName="Prog1" targetName="Aula6-Problema3" />
+      <config projectName="Prog1" targetName="Aula11-Problema1" />
+      <config projectName="Prog1" targetName="Aula8-Problema1_2" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
@@ -143,12 +143,10 @@
     </ADDITIONAL_GENERATION_ENVIRONMENT>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f84232f6-4cdb-4421-b112-e29dcf4ec80d" name="Default" comment="File Iniciaization">
+    <list default="true" id="f84232f6-4cdb-4421-b112-e29dcf4ec80d" name="Default" comment="File cleaning">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_13/Problema_1/Problema_1.c" afterPath="$PROJECT_DIR$/Aula_Pratica_13/Problema_1/Problema_1.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_13/Problema_3/Problema_3.c" afterPath="$PROJECT_DIR$/Aula_Pratica_13/Problema_3/Problema_3.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_13/Problema_4/Problema_4.c" afterPath="$PROJECT_DIR$/Aula_Pratica_13/Problema_4/Problema_4.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_13/Problema_5/Problema_5.c" afterPath="$PROJECT_DIR$/Aula_Pratica_13/Problema_5/Problema_5.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_13/Problema_6/Problema_6.c" afterPath="$PROJECT_DIR$/Aula_Pratica_13/Problema_6/Problema_6.c" />
     </list>
     <ignored path="Prog1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -169,32 +167,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Problema_4.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aula_Pratica_13/Problema_4/Problema_4.c">
+      <file leaf-file-name="Problema_1.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Aula_Pratica_13/Problema_1/Problema_1.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="1.1644613">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problema_5.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Aula_Pratica_13/Problema_5/Problema_5.c">
+      <file leaf-file-name="Problema_3.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Aula_Pratica_13/Problema_3/Problema_3.c">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problema_6.c" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Aula_Pratica_13/Problema_6/Problema_6.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -243,13 +235,13 @@
         <option value="$PROJECT_DIR$/Aula_Pratica_13/Problema_1/teixas.c" />
         <option value="$PROJECT_DIR$/Aula_Pratica_12/Problema_5/cards.c" />
         <option value="$PROJECT_DIR$/Aula_Pratica_12/Problema_4/Problema_4.c" />
-        <option value="$PROJECT_DIR$/Aula_Pratica_13/Problema_1/Problema_1.c" />
         <option value="$PROJECT_DIR$/Aula_Pratica_13/Problema_2/Problema_2.c" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Aula_Pratica_13/Problema_3/Problema_3.c" />
         <option value="$PROJECT_DIR$/Aula_Pratica_13/Problema_4/Problema_4.c" />
         <option value="$PROJECT_DIR$/Aula_Pratica_13/Problema_5/Problema_5.c" />
         <option value="$PROJECT_DIR$/Aula_Pratica_13/Problema_6/Problema_6.c" />
+        <option value="$PROJECT_DIR$/Aula_Pratica_13/Problema_3/Problema_3.c" />
+        <option value="$PROJECT_DIR$/Aula_Pratica_13/Problema_1/Problema_1.c" />
       </list>
     </option>
   </component>
@@ -260,10 +252,9 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="952" />
+    <option name="width" value="976" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -352,60 +343,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Problema_6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prog1" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prog1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Aula_Pratica_13" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Problema_5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prog1" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prog1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Aula_Pratica_13" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Problema_4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prog1" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Prog1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Aula_Pratica_13" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Problema_3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -424,7 +361,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Problema_2" />
+              <option name="myItemId" value="Problema_1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -461,7 +398,7 @@
       <recent name="C:\Users\Goncalo\Documents\FEUP\Prog1\Aula_Pratica_12\Problema_2\Resolução" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Aula13-Problema6">
+  <component name="RunManager" selected="Application.Aula13-Problema1">
     <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula2-Problema1" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
       <envs />
       <method />
@@ -951,12 +888,6 @@
       <option name="number" value="Default" />
       <updated>1449511027051</updated>
     </task>
-    <task id="LOCAL-00001" summary="CLion Configuration for the entire folder">
-      <created>1449511225477</created>
-      <option name="number" value="00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1449511225477</updated>
-    </task>
     <task id="LOCAL-00002" summary="CMakeLists Configuration">
       <created>1449511450203</created>
       <option name="number" value="00002" />
@@ -1245,7 +1176,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452811410908</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="File cleaning">
+      <created>1452811470713</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1452811470714</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1258,28 +1195,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="952" y="0" width="976" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20126782" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40923738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.49624062" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3179256" sideWeight="0.49194413" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31584948" sideWeight="0.49194413" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32094595" sideWeight="0.49624062" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32807216" sideWeight="0.506075" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21846847" sideWeight="0.49624062" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35917902" sideWeight="0.49392498" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.49624062" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990981" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39794755" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35174745" sideWeight="0.49392498" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32807216" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990981" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1295,7 +1232,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Code Spacing and Indentation massively corrected" />
     <MESSAGE value="C99 corrections and small clean up" />
     <MESSAGE value="Ciclo for" />
     <MESSAGE value="TODO done" />
@@ -1320,7 +1256,8 @@
     <MESSAGE value="Aula 13 - Problema 1" />
     <MESSAGE value="Renaming done right" />
     <MESSAGE value="File Iniciaization" />
-    <option name="LAST_COMMIT_MESSAGE" value="File Iniciaization" />
+    <MESSAGE value="File cleaning" />
+    <option name="LAST_COMMIT_MESSAGE" value="File cleaning" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1332,34 +1269,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aula_Pratica_06/Problema_2.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Extras/Mini-teste_exemplo/Problema_2_2.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Extras/Mini-teste1/Exercicio_2_1.c">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1616,7 +1525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1631,7 +1539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1639,17 +1546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aula_Pratica_13/Problema_1/Problema_1.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1657,7 +1553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5632318">
           <caret line="85" column="63" selection-start-line="85" selection-start-column="63" selection-end-line="85" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1665,15 +1560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Aula_Pratica_13/Problema_3/Problema_3.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1681,7 +1567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1689,7 +1574,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Packages/microsoft.windowscommunicationsapps_8wekyb3d8bbwe/LocalState/Files/560/486/a13ex3 [978587].c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1697,7 +1588,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/4.8.1/include/stddef.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="211" column="22" selection-start-line="211" selection-start-column="22" selection-end-line="211" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/include/_mingw.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="318" column="35" selection-start-line="318" selection-start-column="35" selection-end-line="318" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/include/stdlib.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3321033">
+          <caret line="353" column="87" selection-start-line="353" selection-start-column="87" selection-end-line="353" selection-end-column="87" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aula_Pratica_13/Problema_3/Problema_3.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aula_Pratica_13/Problema_1/Problema_1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1644613">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
