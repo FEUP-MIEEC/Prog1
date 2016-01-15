@@ -145,7 +145,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f84232f6-4cdb-4421-b112-e29dcf4ec80d" name="Default" comment="File cleaning">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_13/Problema_1/Problema_1.c" afterPath="$PROJECT_DIR$/Aula_Pratica_13/Problema_1/Problema_1.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Aula_Pratica_13/Problema_3/Problema_3.c" afterPath="$PROJECT_DIR$/Aula_Pratica_13/Problema_3/Problema_3.c" />
     </list>
     <ignored path="Prog1.iws" />
@@ -167,23 +166,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Problema_1.c" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Aula_Pratica_13/Problema_1/Problema_1.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1644613">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Problema_3.c" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Problema_3.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Aula_Pratica_13/Problema_3/Problema_3.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            <state vertical-scroll-proportion="1.2627599">
+              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -240,8 +227,8 @@
         <option value="$PROJECT_DIR$/Aula_Pratica_13/Problema_4/Problema_4.c" />
         <option value="$PROJECT_DIR$/Aula_Pratica_13/Problema_5/Problema_5.c" />
         <option value="$PROJECT_DIR$/Aula_Pratica_13/Problema_6/Problema_6.c" />
-        <option value="$PROJECT_DIR$/Aula_Pratica_13/Problema_3/Problema_3.c" />
         <option value="$PROJECT_DIR$/Aula_Pratica_13/Problema_1/Problema_1.c" />
+        <option value="$PROJECT_DIR$/Aula_Pratica_13/Problema_3/Problema_3.c" />
       </list>
     </option>
   </component>
@@ -373,21 +360,21 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="213" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="107" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="245" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="122" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="246" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="122" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1153" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="544" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="355" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="173" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="361" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="176" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="363" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="177" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="778" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="369" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -398,7 +385,7 @@
       <recent name="C:\Users\Goncalo\Documents\FEUP\Prog1\Aula_Pratica_12\Problema_2\Resolução" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Aula13-Problema1">
+  <component name="RunManager" selected="Application.Aula13-Problema3">
     <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Prog1" TARGET_NAME="Aula2-Problema1" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
       <envs />
       <method />
@@ -888,18 +875,6 @@
       <option name="number" value="Default" />
       <updated>1449511027051</updated>
     </task>
-    <task id="LOCAL-00002" summary="CMakeLists Configuration">
-      <created>1449511450203</created>
-      <option name="number" value="00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1449511450203</updated>
-    </task>
-    <task id="LOCAL-00003" summary="CMakeLists Update ver 0.5">
-      <created>1449512315099</created>
-      <option name="number" value="00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1449512315099</updated>
-    </task>
     <task id="LOCAL-00004" summary="CMakeLists Update finalized">
       <created>1449521925475</created>
       <option name="number" value="00004" />
@@ -1182,7 +1157,19 @@
       <option name="project" value="LOCAL" />
       <updated>1452811470714</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Aula 13 - Problema 1">
+      <created>1452866610031</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1452866610032</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Cála-te Fábio">
+      <created>1452867174986</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1452867174986</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1196,7 +1183,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="952" y="0" width="976" height="1038" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40923738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.49624062" order="6" side_tool="false" content_ui="tabs" />
@@ -1204,8 +1191,8 @@
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32094595" sideWeight="0.49624062" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32807216" sideWeight="0.506075" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21846847" sideWeight="0.49624062" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35917902" sideWeight="0.49392498" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2177879" sideWeight="0.49624062" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35917902" sideWeight="0.49392498" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.49624062" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1232,7 +1219,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="C99 corrections and small clean up" />
     <MESSAGE value="Ciclo for" />
     <MESSAGE value="TODO done" />
     <MESSAGE value="TODO resolvidos" />
@@ -1253,11 +1239,12 @@
     <MESSAGE value="Pedantic-errors" />
     <MESSAGE value="Problema 1" />
     <MESSAGE value="Aula 12 - Problema 5 optimizado para posterior modificação do baralho" />
-    <MESSAGE value="Aula 13 - Problema 1" />
     <MESSAGE value="Renaming done right" />
     <MESSAGE value="File Iniciaization" />
     <MESSAGE value="File cleaning" />
-    <option name="LAST_COMMIT_MESSAGE" value="File cleaning" />
+    <MESSAGE value="Aula 13 - Problema 1" />
+    <MESSAGE value="Cála-te Fábio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cála-te Fábio" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1269,13 +1256,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Extras/Mini-teste1/Exercicio_2_1.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Extras/Mini-teste_exemplo/Problema_1.c">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1595,6 +1575,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="211" column="22" selection-start-line="211" selection-start-column="22" selection-end-line="211" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1613,20 +1594,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Aula_Pratica_13/Problema_3/Problema_3.c">
+    <entry file="file://C:/MinGW/include/stdio.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.3329384">
+          <caret line="352" column="40" selection-start-line="352" selection-start-column="40" selection-end-line="352" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Aula_Pratica_13/Problema_1/Problema_1.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1644613">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.45746693">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aula_Pratica_13/Problema_3/Problema_3.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2627599">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
