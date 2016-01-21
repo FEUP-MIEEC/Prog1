@@ -30,8 +30,11 @@
  		p = realloc(p, sizeof(int)*count + sizeof(int));
  		isNull(p);		
  	}
+ 	
 	j = 2*count - 1;
+	
  	p = realloc(p, j*sizeof(int));
+ 	isNull(p);
 	
 	printf("Output\n");
 
