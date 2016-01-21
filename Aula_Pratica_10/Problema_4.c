@@ -1,5 +1,3 @@
-// Created by Fabio Gaspar 11/Dec
-
 #include <stdio.h>
 
 void ordena(float notas[][2], int N);

@@ -1,7 +1,3 @@
-/*
- *      Author: Daniel Silva
- */
-
 #include <stdio.h>
 #include "armazem.h"
 

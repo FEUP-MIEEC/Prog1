@@ -1,8 +1,3 @@
-/*
- *  Created on: 14/11/2015
- *      Author: Gonçalo Pereira
- */
-
 #include <stdio.h>
 
 int bissextile(int year) {

@@ -1,7 +1,3 @@
-/*
- *  Created on: 02/12/2015
- *      Author: Fábio Gaspar
- */
 #include <stdio.h>
 
 int contaRepeticao(int v[], int tamanhoVetor, int numero) {

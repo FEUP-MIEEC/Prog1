@@ -1,8 +1,3 @@
-/*
- *  Created on: 18/12/2015
- *      Author: Fábio Gaspar
- */
-
 #include <stdio.h>
 #include <string.h>
 

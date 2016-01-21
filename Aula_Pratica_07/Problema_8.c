@@ -1,7 +1,3 @@
-/*
- *  Created on: 20/11/2015
- *      Author: Daniel Silva
- */
 #include <stdio.h>
 
 void converte(char c) {

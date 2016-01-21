@@ -1,7 +1,3 @@
-/*
- *  Created on: 03/12/2015
- *      Author: Fábio Gaspar
- */
 #include <stdio.h>
 
 void imprimir_vetor(float v[]) {

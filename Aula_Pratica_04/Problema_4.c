@@ -1,8 +1,3 @@
-/*
- *  Created on: 03/11/2015
- *      Author: Daniel Silva
- */
-
 #include <stdio.h>
 
 int main() {

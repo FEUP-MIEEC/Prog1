@@ -1,8 +1,3 @@
-/*
- *  Created on: 14/11/2015
- *      Author: Fábio Gaspar
- */
-
 #include <stdio.h>
 
 int sum(int n) {

@@ -1,9 +1,3 @@
-/*
- *  Created on: 20/11/2015
- *      Author: Diogo Machado
- */
-
-
 #include <stdio.h>
 #include <math.h>
 

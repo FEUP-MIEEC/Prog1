@@ -1,8 +1,3 @@
-/*
- *  Created on: 27/11/2015
- *      Author: Daniel Silva
- */
-
 #include <stdio.h>
 
 int horasMin(int *min, int *horas) {

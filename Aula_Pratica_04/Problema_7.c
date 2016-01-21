@@ -1,7 +1,3 @@
-/*
- *  Created on: 27/12/2015
- *      Author: Fábio Gaspar
- */
 #include <stdio.h>
 
 int main() {

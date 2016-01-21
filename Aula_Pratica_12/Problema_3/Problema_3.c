@@ -1,6 +1,3 @@
-/*
- *      Author: Fábio Gaspar
- */
 #include <stdio.h>
 #include "complexo.h"
 

@@ -1,8 +1,3 @@
-/*
- *  Created on: 13/11/2015
- *      Author: Gonçalo Pereira
- */
-
 #include <stdio.h>
 #include <math.h>
 

@@ -1,8 +1,3 @@
-/*
- *  Created on: 08/12/2015
- *  Author: Fábio Gaspar
- *  Revised by: Daniel Silva
- */
 #include <stdio.h>
 
 #define MAX 100

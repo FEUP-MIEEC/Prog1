@@ -1,6 +1,3 @@
-//
-// Created by Gonçalo Pereira on 11/12/2015.
-//
 #include <stdio.h>
 
 int procuraTodos(int *v, int N, int x, int *posicoes, int *nPosicoes);

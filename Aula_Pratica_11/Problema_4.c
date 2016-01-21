@@ -1,7 +1,3 @@
-/*
- *  Created on: 17/12/2015
- *      Author: Fábio Gaspar
- */
 #include <stdio.h>
 
 int mdc(int x, int y);

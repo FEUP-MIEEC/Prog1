@@ -1,12 +1,3 @@
-/*
- *  Created on: 20/11/2015
- *      Author: Daniel Silva
- *
- * Com erros!
- *
- */
-
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

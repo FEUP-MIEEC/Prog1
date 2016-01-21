@@ -1,8 +1,3 @@
-/*
- *  Created on: 13/11/2015
- *      Author: Daniel Silva e Gonçalo Mendes
- */
-
 #include <stdio.h>
 
 float parabola(int a, float x) {

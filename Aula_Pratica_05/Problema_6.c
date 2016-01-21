@@ -1,8 +1,3 @@
-/*
- *  Created on: 13/11/2015
- *      Author: Daniel Silva
- */
-
 #include <stdio.h>
 
 void testFunc(int n) {

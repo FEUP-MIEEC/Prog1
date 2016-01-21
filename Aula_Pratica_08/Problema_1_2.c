@@ -1,10 +1,3 @@
-/*
- *  Created on: 27/11/2015
- *      Author: Daniel Silva
- */
-
-// Alternativa
-
 #include <stdio.h>
 
 void swap(int *a, int *b) {
