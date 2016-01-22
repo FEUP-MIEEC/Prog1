@@ -8,24 +8,32 @@
 char * strsplit(char *str);
 int main()
 {
-	int bytes = 0;
+	int bytes = 0; /*Contar número de bytes do Input*/
 	char aux[50], *str, *str_f, *cur_str;
+
+	printf("Input\n");
 
 	str = (char *) malloc(1); /*Declarar vetor str*/
 
-	while(fgets(aux,50,stdin)!=NULL)
+	while(fgets(aux,50,stdin)!=NULL) /*Ler input*/
 	{
-		bytes += strlen(aux);
+		bytes += strlen(aux); 
 		str = (char *) realloc(str, bytes);
 		str = strcat(str, aux);
+		/*
+			O vetor 'aux' é usado para ler a palavra atual do stdin
+			O vetor 'str' contém a string final, ou seja, todas as palavras são guardadas nesta 'string'
+		*/
 	}
 
+	/*
+		A string 'str_f' vai ter a string resultante removendo palavras duplicadas
+	*/
 
-	str_f = (char *) malloc(bytes);
+	str_f = (char *) malloc(bytes); 
 	str_f = strcat(str_f, strsplit(str)); /*obtem a primeira palavra*/
 	
-	printf("\n\nOutput");
-
+	printf("\nOutput");
 
 	while((cur_str = strsplit(str))!=NULL)
 	{
@@ -43,6 +51,17 @@ int main()
 
 char * strsplit(char* str)
 {
+	/*
+		Esta função serve para separar a string 'str' pelo delimitador '\n'
+		Exemplo:
+			**Input**
+			teste
+			teste1
+			teste2
+			teste3
+			
+		A primeira vez que esta função é chamada retorna "teste", depois "teste1"...	
+	*/
 	static int j = 0;
 	char *token;
 	static char *saveptr;
