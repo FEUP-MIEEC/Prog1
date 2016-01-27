@@ -3,13 +3,13 @@
 int ler_volumes (float *volumes){
 	int n, i;
 	scanf("%d", &n);
-	for (i=0; i<=n; i++){
+	for (i=0; i<n; i++){
 		scanf("%f", &volumes[i]);
 	}
 	return n;
 }
 
-int volume_medio(float *volumes, int nvolumes, float max, float min){
+float volume_medio(float *volumes, int nvolumes, float max, float min){
 	int i, n=0;
 	float total=0;
 	for(i=0;i<nvolumes; i++){
@@ -18,6 +18,7 @@ int volume_medio(float *volumes, int nvolumes, float max, float min){
 			n++;
 		}
 	}
+	
 	return total/n;
 }
 
@@ -30,5 +31,5 @@ int main (){
 	scanf("%f", &minimo);
 	scanf("%f", &maximo);
 	media=volume_medio(volumes, n, maximo, minimo);
-	printf("Volume médio = %.3f", media);
+	printf("Volume médio = %.3f\n", media);
 }
