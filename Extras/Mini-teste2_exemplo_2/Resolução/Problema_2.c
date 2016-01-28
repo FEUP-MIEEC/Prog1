@@ -74,7 +74,7 @@ peca* lista_compras(peca modelo[], int Nm, float limite, int *Nc)
 
 	for (i = 0; i < Nm; ++i)
 	{
-		lista = realloc(lista, sizeof(peca)*(i+1));
+		lista = realloc(lista, sizeof(peca)*(count+1));
 		c_total = modelo[i].quantidade * modelo[i].preco;
 		if (c_total < limite)
 		{
