@@ -41,7 +41,9 @@ int main()
 	int nvol;
 	nvol=ler_Volumes(volum);
 	printf("\nQual é o minimo: "); scanf("%f", &mini);
+	printf("%f", mini);
 	printf("\nQual é o maximo: "); scanf("%f", &maxi);
+	printf("%f", maxi);
 	printf("\nForam lidos %d valores", nvol);
 	printf("\nO volumes de enchimento médio é %.3f\n", volume_medio(volum,nvol, maxi, mini));
 }
