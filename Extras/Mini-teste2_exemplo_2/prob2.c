@@ -39,9 +39,12 @@ int main()
    numero de pecas armazenadas nesse vetor */
 int ler_pecas(peca modelo[])
 {
-	/* problema 2.1 */
+
+	int i=0;
+	while(scanf("%s %d %f", &modelo[i].nome, &modelo[i].quantidade, &modelo[i].preco)==3)
+		i++;
 	
-	return 0;
+	return i;
 }
 
 /* Retorna um vetor contendo a lista de compras. O numero de 
@@ -59,8 +62,15 @@ peca* lista_compras(peca modelo[], int Nm, float limite, int *Nc)
    Os parametros lista e n sao o vetor com a lista de compras e o respetivo tamanho. */
 void guarda_lista(peca lista[], int n, char *nomeFicheiro)
 {
-	/* problema 2.3 */
-	
+	FILE *f;
+	int i=0;
+	f=fopen(nomeFicheiro, "w+");
+	while(i<n)
+	{
+		fprintf("%s %d %f", lista[i].nome, lista[i].quantidade, lista[i].preco);
+		i++;
+	}
+	fclose(f);
 }
 
 
