@@ -3,7 +3,7 @@
 #include <string.h>
 
 int main() {
-    int i = 0, j = 0, k = 0, x = 0, w = 0, pos = -1, write = 1, fr = 0,l;
+    int i = 0, j = 0, k = 0, w = 0, fr = 0, l;
     char **v = NULL, **a = NULL, val[100] = {};
     while (fgets(val, 100, stdin) != NULL) {
         if (j == 0) {
